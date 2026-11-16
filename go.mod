@@ -4,8 +4,10 @@ go 1.26
 
 require (
 	github.com/CycloneDX/cyclonedx-go v0.11.0
+	github.com/bradleyfalzon/ghinstallation/v2 v2.19.0
 	github.com/git-pkgs/vers v0.7.2
 	github.com/golang-migrate/migrate/v4 v4.19.1
+	github.com/google/go-github/v72 v72.0.0
 	github.com/google/uuid v1.6.0
 	github.com/package-url/packageurl-go v0.1.6
 	github.com/pelletier/go-toml/v2 v2.2.4
@@ -20,7 +22,9 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
-	github.com/google/go-cmp v0.7.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
+	github.com/google/go-github/v88 v88.0.0 // indirect
+	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v1.0.0 // indirect
