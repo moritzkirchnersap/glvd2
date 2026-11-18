@@ -13,8 +13,8 @@
             "pkg:deb/debian/3proxy": 1
         },
         "\"7-zip\":\"7-zip\"": {
-            "pkg:deb/debian/7zip": 14,
-            "pkg:deb/debian/p7zip": 14
+            "pkg:deb/debian/7zip": 15,
+            "pkg:deb/debian/p7zip": 15
         },
         "\"7-zip\":\"7zip\"": {
             "pkg:deb/debian/7zip": 2,
@@ -3608,6 +3608,9 @@
         "\"debian\":\"icoutils\"": {
             "pkg:deb/debian/icoutils": 3
         },
+        "\"debian\":\"lightdm\"": {
+            "pkg:deb/debian/lightdm": 1
+        },
         "\"debian\":\"live-boot\"": {
             "pkg:deb/debian/live-boot": 1
         },
@@ -6192,7 +6195,7 @@
             "pkg:deb/debian/ausweisapp2": 1
         },
         "\"gpac\":\"gpac\"": {
-            "pkg:deb/debian/gpac": 34
+            "pkg:deb/debian/gpac": 40
         },
         "\"gpac\":\"gpac/gpac\"": {
             "pkg:deb/debian/gpac": 47
@@ -6286,6 +6289,12 @@
         },
         "\"grichter\":\"apache::sessionx\"": {
             "pkg:deb/debian/libapache-sessionx-perl": 1
+        },
+        "\"grid community forum\":\"globus-gss-assist\"": {
+            "pkg:deb/debian/globus-gss-assist": 1
+        },
+        "\"grid community forum\":\"grid community toolkit\"": {
+            "pkg:deb/debian/globus-gss-assist": 1
         },
         "\"grocy project\":\"grocy\"": {
             "pkg:deb/debian/grocy": 3
@@ -7177,6 +7186,9 @@
         "\"irontec\":\"sngrep\"": {
             "pkg:deb/debian/sngrep": 6
         },
+        "\"iru cai\":\"fqterm\"": {
+            "pkg:deb/debian/fqterm": 2
+        },
         "\"isaacs\":\"brace-expansion\"": {
             "pkg:deb/debian/node-brace-expansion": 1
         },
@@ -7577,7 +7589,7 @@
             "pkg:deb/debian/node-brace-expansion": 9
         },
         "\"junegunn\":\"fzf\"": {
-            "pkg:deb/debian/fzf": 1
+            "pkg:deb/debian/fzf": 3
         },
         "\"juniper networks\":\"junos os\"": {
             "pkg:deb/debian/inetutils": 1,
@@ -8025,7 +8037,7 @@
             "pkg:deb/debian/python-authlib": 1
         },
         "\"lepture\":\"mistune\"": {
-            "pkg:deb/debian/mistune": 28
+            "pkg:deb/debian/mistune": 30
         },
         "\"letodms\":\"letodms\"": {
             "pkg:deb/debian/letodms": 2
@@ -8366,7 +8378,7 @@
             "pkg:deb/debian/linux": 43
         },
         "\"linux\":\"linux\"": {
-            "pkg:deb/debian/linux": 18264,
+            "pkg:deb/debian/linux": 18272,
             "pkg:deb/debian/xen": 4
         },
         "\"linux\":\"linux_kernel\"": {
@@ -13574,7 +13586,7 @@
             "pkg:deb/debian/blazar": 2
         },
         "\"openstack\":\"cinder\"": {
-            "pkg:deb/debian/cinder": 1
+            "pkg:deb/debian/cinder": 2
         },
         "\"openstack\":\"compute\"": {
             "pkg:deb/debian/keystone": 1,
@@ -13607,7 +13619,7 @@
             "pkg:deb/debian/swift": 1
         },
         "\"openstack\":\"keystonemiddleware\"": {
-            "pkg:deb/debian/python-keystonemiddleware": 2
+            "pkg:deb/debian/python-keystonemiddleware": 3
         },
         "\"openstack\":\"manila\"": {
             "pkg:deb/debian/manila": 1
@@ -13787,36 +13799,36 @@
             "pkg:deb/debian/mysql-workbench": 2
         },
         "\"oracle corporation\":\"oracle graalvm enterprise edition\"": {
-            "pkg:deb/debian/openjdk-11": 59,
-            "pkg:deb/debian/openjdk-17": 56,
-            "pkg:deb/debian/openjdk-21": 57,
+            "pkg:deb/debian/openjdk-11": 64,
+            "pkg:deb/debian/openjdk-17": 62,
+            "pkg:deb/debian/openjdk-21": 63,
             "pkg:deb/debian/openjdk-24": 6,
-            "pkg:deb/debian/openjdk-25": 49,
+            "pkg:deb/debian/openjdk-25": 55,
             "pkg:deb/debian/openjdk-26": 6,
-            "pkg:deb/debian/openjdk-27": 28,
-            "pkg:deb/debian/openjdk-8": 60,
+            "pkg:deb/debian/openjdk-27": 34,
+            "pkg:deb/debian/openjdk-8": 65,
             "pkg:deb/debian/openjfx": 2
         },
         "\"oracle corporation\":\"oracle graalvm for jdk\"": {
-            "pkg:deb/debian/openjdk-11": 59,
-            "pkg:deb/debian/openjdk-17": 57,
-            "pkg:deb/debian/openjdk-21": 58,
+            "pkg:deb/debian/openjdk-11": 64,
+            "pkg:deb/debian/openjdk-17": 65,
+            "pkg:deb/debian/openjdk-21": 67,
             "pkg:deb/debian/openjdk-24": 7,
-            "pkg:deb/debian/openjdk-25": 50,
+            "pkg:deb/debian/openjdk-25": 59,
             "pkg:deb/debian/openjdk-26": 6,
-            "pkg:deb/debian/openjdk-27": 29,
-            "pkg:deb/debian/openjdk-8": 56
+            "pkg:deb/debian/openjdk-27": 38,
+            "pkg:deb/debian/openjdk-8": 61
         },
         "\"oracle corporation\":\"oracle java se\"": {
-            "pkg:deb/debian/openjdk-11": 78,
-            "pkg:deb/debian/openjdk-17": 73,
-            "pkg:deb/debian/openjdk-21": 77,
+            "pkg:deb/debian/openjdk-11": 83,
+            "pkg:deb/debian/openjdk-17": 81,
+            "pkg:deb/debian/openjdk-21": 86,
             "pkg:deb/debian/openjdk-23": 5,
             "pkg:deb/debian/openjdk-24": 8,
-            "pkg:deb/debian/openjdk-25": 65,
+            "pkg:deb/debian/openjdk-25": 75,
             "pkg:deb/debian/openjdk-26": 10,
-            "pkg:deb/debian/openjdk-27": 41,
-            "pkg:deb/debian/openjdk-8": 81,
+            "pkg:deb/debian/openjdk-27": 51,
+            "pkg:deb/debian/openjdk-8": 86,
             "pkg:deb/debian/openjfx": 3
         },
         "\"oracle corporation\":\"oracle java se, oracle graalvm for jdk, oracle graalvm enterprise edition\"": {
@@ -17235,6 +17247,9 @@
         "\"sox\":\"sox\"": {
             "pkg:deb/debian/sox": 1
         },
+        "\"spamscope\":\"mail-parser\"": {
+            "pkg:deb/debian/mail-parser": 6
+        },
         "\"sparkle-project\":\"sparkle\"": {
             "pkg:deb/debian/openjdk-8": 1
         },
@@ -17871,6 +17886,9 @@
             "pkg:deb/debian/hsqldb1.8.0": 2,
             "pkg:deb/debian/libreoffice": 72
         },
+        "\"the document foundation\":\"libvisio\"": {
+            "pkg:deb/debian/libvisio": 1
+        },
         "\"the dovecot project\":\"dovecot\"": {
             "pkg:deb/debian/dovecot": 3
         },
@@ -17937,7 +17955,7 @@
             "pkg:deb/debian/gdm3": 1
         },
         "\"the gnu c library\":\"glibc\"": {
-            "pkg:deb/debian/glibc": 36
+            "pkg:deb/debian/glibc": 39
         },
         "\"the gnu projec\":\"gnu wget\"": {
             "pkg:deb/debian/wget": 1
@@ -19088,7 +19106,7 @@
             "pkg:deb/debian/misp": 1
         },
         "\"weblateorg\":\"weblate\"": {
-            "pkg:deb/debian/weblate": 43
+            "pkg:deb/debian/weblate": 45
         },
         "\"weblateorg\":\"wlc\"": {
             "pkg:deb/debian/wlc": 5
@@ -19319,6 +19337,9 @@
         },
         "\"x-stream\":\"xstream\"": {
             "pkg:deb/debian/libxstream-java": 32
+        },
+        "\"x.org\":\"libfontenc\"": {
+            "pkg:deb/debian/libfontenc": 1
         },
         "\"x.org\":\"libx11\"": {
             "pkg:deb/debian/libx11": 4
@@ -19731,7 +19752,7 @@
             "pkg:deb/debian/znuny": 8
         },
         "\"zoneminder\":\"zoneminder\"": {
-            "pkg:deb/debian/zoneminder": 28
+            "pkg:deb/debian/zoneminder": 29
         },
         "\"zope\":\"restrictedpython\"": {
             "pkg:deb/debian/restrictedpython": 1
@@ -19779,8 +19800,8 @@
             "pkg:deb/debian/3proxy": 1
         },
         "cpe:2.3:a:7-zip:7-zip:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/7zip": 7,
-            "pkg:deb/debian/p7zip": 7
+            "pkg:deb/debian/7zip": 8,
+            "pkg:deb/debian/p7zip": 8
         },
         "cpe:2.3:a:7-zip:7zip:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/7zip": 2,
@@ -21172,7 +21193,7 @@
             "pkg:deb/debian/ausweisapp2": 1
         },
         "cpe:2.3:a:gpac:gpac:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/gpac": 87
+            "pkg:deb/debian/gpac": 93
         },
         "cpe:2.3:a:gpsd_project:gpsd:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/gpsd": 2
@@ -22532,7 +22553,7 @@
             "pkg:deb/debian/openssl": 5
         },
         "cpe:2.3:a:openstack:cinder:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/cinder": 1
+            "pkg:deb/debian/cinder": 2
         },
         "cpe:2.3:a:openstack:designate:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/designate": 2
@@ -22553,7 +22574,7 @@
             "pkg:deb/debian/keystone": 12
         },
         "cpe:2.3:a:openstack:keystonemiddleware:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/python-keystonemiddleware": 2
+            "pkg:deb/debian/python-keystonemiddleware": 3
         },
         "cpe:2.3:a:openstack:manila:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/manila": 1
@@ -22586,16 +22607,16 @@
             "pkg:deb/debian/zfs-linux": 1
         },
         "cpe:2.3:a:oracle:graalvm:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/openjdk-11": 73,
-            "pkg:deb/debian/openjdk-17": 69,
+            "pkg:deb/debian/openjdk-11": 78,
+            "pkg:deb/debian/openjdk-17": 75,
             "pkg:deb/debian/openjdk-20": 1,
-            "pkg:deb/debian/openjdk-21": 68,
+            "pkg:deb/debian/openjdk-21": 74,
             "pkg:deb/debian/openjdk-23": 4,
             "pkg:deb/debian/openjdk-24": 6,
-            "pkg:deb/debian/openjdk-25": 52,
+            "pkg:deb/debian/openjdk-25": 58,
             "pkg:deb/debian/openjdk-26": 9,
-            "pkg:deb/debian/openjdk-27": 28,
-            "pkg:deb/debian/openjdk-8": 73,
+            "pkg:deb/debian/openjdk-27": 34,
+            "pkg:deb/debian/openjdk-8": 78,
             "pkg:deb/debian/openjfx": 6,
             "pkg:deb/debian/webkit2gtk": 1,
             "pkg:deb/debian/wpewebkit": 1
@@ -22607,26 +22628,26 @@
             "pkg:deb/debian/openjdk-8": 2
         },
         "cpe:2.3:a:oracle:graalvm_for_jdk:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/openjdk-11": 71,
-            "pkg:deb/debian/openjdk-17": 69,
-            "pkg:deb/debian/openjdk-21": 70,
+            "pkg:deb/debian/openjdk-11": 76,
+            "pkg:deb/debian/openjdk-17": 77,
+            "pkg:deb/debian/openjdk-21": 79,
             "pkg:deb/debian/openjdk-23": 4,
             "pkg:deb/debian/openjdk-24": 7,
-            "pkg:deb/debian/openjdk-25": 53,
+            "pkg:deb/debian/openjdk-25": 62,
             "pkg:deb/debian/openjdk-26": 9,
-            "pkg:deb/debian/openjdk-27": 29,
-            "pkg:deb/debian/openjdk-8": 67
+            "pkg:deb/debian/openjdk-27": 38,
+            "pkg:deb/debian/openjdk-8": 72
         },
         "cpe:2.3:a:oracle:java_se:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/openjdk-11": 90,
-            "pkg:deb/debian/openjdk-17": 84,
-            "pkg:deb/debian/openjdk-21": 86,
+            "pkg:deb/debian/openjdk-11": 95,
+            "pkg:deb/debian/openjdk-17": 92,
+            "pkg:deb/debian/openjdk-21": 95,
             "pkg:deb/debian/openjdk-23": 5,
             "pkg:deb/debian/openjdk-24": 8,
-            "pkg:deb/debian/openjdk-25": 68,
+            "pkg:deb/debian/openjdk-25": 78,
             "pkg:deb/debian/openjdk-26": 13,
-            "pkg:deb/debian/openjdk-27": 41,
-            "pkg:deb/debian/openjdk-8": 93,
+            "pkg:deb/debian/openjdk-27": 51,
+            "pkg:deb/debian/openjdk-8": 98,
             "pkg:deb/debian/openjfx": 7
         },
         "cpe:2.3:a:oracle:javafx:*:*:*:*:*:*:*:*": {
@@ -23839,6 +23860,9 @@
         "cpe:2.3:a:webkul:aureus_erp:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/misp": 1
         },
+        "cpe:2.3:a:weblate:weblate:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/weblate": 2
+        },
         "cpe:2.3:a:webmin:usermin:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/usermin": 3,
             "pkg:deb/debian/webmin": 1
@@ -23899,6 +23923,9 @@
         },
         "cpe:2.3:a:x-stream:x-stream:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/libxstream-java": 1
+        },
+        "cpe:2.3:a:x.org:libfontenc:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/libfontenc": 1
         },
         "cpe:2.3:a:x.org:libx11:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/libx11": 4
@@ -24219,7 +24246,7 @@
             "pkg:deb/debian/linux": 6
         },
         "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/linux": 18256
+            "pkg:deb/debian/linux": 18264
         },
         "cpe:2.3:o:linux_mint:xreader:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/xreader": 2
@@ -26749,6 +26776,9 @@
         },
         "\"https://cpan.org/modules\":\"IO-Compress-Brotli\"": {
             "pkg:deb/debian/libio-compress-brotli-perl": 1
+        },
+        "\"https://cpan.org/modules\":\"IO-Socket-SSL\"": {
+            "pkg:deb/debian/libio-socket-ssl-perl": 2
         },
         "\"https://cpan.org/modules\":\"Imager\"": {
             "pkg:deb/debian/libimager-perl": 11
@@ -29819,6 +29849,9 @@
         "pkg:cpan/HTTP-Parser-XS": {
             "pkg:deb/debian/libhttp-parser-xs-perl": 1
         },
+        "pkg:cpan/IO-Socket-SSL": {
+            "pkg:deb/debian/libio-socket-ssl-perl": 2
+        },
         "pkg:cpan/Imager": {
             "pkg:deb/debian/libimager-perl": 7
         },
@@ -30165,7 +30198,10 @@
             "pkg:deb/debian/glpi": 2
         },
         "pkg:github/gpac/gpac": {
-            "pkg:deb/debian/gpac": 10
+            "pkg:deb/debian/gpac": 16
+        },
+        "pkg:github/gridcf/gct": {
+            "pkg:deb/debian/globus-gss-assist": 1
         },
         "pkg:github/haproxy/haproxy": {
             "pkg:deb/debian/haproxy": 2
@@ -30198,6 +30234,10 @@
         },
         "pkg:github/imagemagick/imagemagick": {
             "pkg:deb/debian/imagemagick": 1
+        },
+        "pkg:github/ip7z/7zip": {
+            "pkg:deb/debian/7zip": 1,
+            "pkg:deb/debian/p7zip": 1
         },
         "pkg:github/irontec/sngrep": {
             "pkg:deb/debian/sngrep": 2
@@ -30314,6 +30354,9 @@
         },
         "pkg:github/msgpack/msgpack-c": {
             "pkg:deb/debian/msgpack-c": 1
+        },
+        "pkg:github/mytbk/fqterm": {
+            "pkg:deb/debian/fqterm": 2
         },
         "pkg:github/nationalsecurityagency/ghidra": {
             "pkg:deb/debian/ghidra": 19
@@ -31291,6 +31334,9 @@
         },
         "pkg:pypi/vllm": {
             "pkg:deb/debian/vllm": 49
+        },
+        "pkg:pypi/weblate": {
+            "pkg:deb/debian/weblate": 2
         },
         "pkg:pypi/xhtml2pdf": {
             "pkg:deb/debian/xhtml2pdf": 1
