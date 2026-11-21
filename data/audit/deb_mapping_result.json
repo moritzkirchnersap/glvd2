@@ -1615,7 +1615,7 @@
             "pkg:deb/debian/apache-log4j2": 3
         },
         "\"apache software foundation\":\"apache log4net\"": {
-            "pkg:deb/debian/log4net": 7
+            "pkg:deb/debian/log4net": 10
         },
         "\"apache software foundation\":\"apache maven\"": {
             "pkg:deb/debian/maven": 1,
@@ -7912,6 +7912,9 @@
         "\"kriszyp\":\"kriszyp/json-schema\"": {
             "pkg:deb/debian/node-json-schema": 1
         },
+        "\"krita\":\"krita\"": {
+            "pkg:deb/debian/krita": 9
+        },
         "\"ktsuss\":\"ktsuss\"": {
             "pkg:deb/debian/ktsuss": 2
         },
@@ -8686,7 +8689,7 @@
         },
         "\"mattermost\":\"mattermost\"": {
             "pkg:deb/debian/mattermost-desktop": 12,
-            "pkg:deb/debian/mattermost-server": 439
+            "pkg:deb/debian/mattermost-server": 440
         },
         "\"mattermost\":\"mattermost_server\"": {
             "pkg:deb/debian/mattermost-server": 2
@@ -14820,7 +14823,7 @@
             "pkg:deb/debian/python-httpx2": 5
         },
         "\"pydantic\":\"pydantic\"": {
-            "pkg:deb/debian/pydantic": 1
+            "pkg:deb/debian/pydantic": 3
         },
         "\"pydantic\":\"pydantic-settings\"": {
             "pkg:deb/debian/pydantic-settings": 1
@@ -16163,7 +16166,7 @@
             "pkg:deb/debian/rlottie": 3
         },
         "\"samtools\":\"htslib\"": {
-            "pkg:deb/debian/htslib": 11
+            "pkg:deb/debian/htslib": 18
         },
         "\"samtools\":\"samtools\"": {
             "pkg:deb/debian/samtools": 2
@@ -19737,7 +19740,7 @@
             "pkg:deb/debian/wireshark": 2
         },
         "\"wireshark foundation\":\"wireshark\"": {
-            "pkg:deb/debian/wireshark": 185
+            "pkg:deb/debian/wireshark": 220
         },
         "\"wireshark\":\"wireshark\"": {
             "pkg:deb/debian/wireshark": 11
@@ -24928,7 +24931,7 @@
             "pkg:deb/debian/cpio": 1
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"cri-o\"": {
-            "pkg:deb/debian/cri-o": 14
+            "pkg:deb/debian/cri-o": 15
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"criu\"": {
             "pkg:deb/debian/criu": 1
@@ -28357,7 +28360,10 @@
             "pkg:deb/debian/tinymce": 3
         },
         "\"https://nuget.org/packages\":\"log4net\"": {
-            "pkg:deb/debian/log4net": 6
+            "pkg:deb/debian/log4net": 9
+        },
+        "\"https://nuget.org/packages\":\"log4net.Ext.Mail\"": {
+            "pkg:deb/debian/log4net": 1
         },
         "\"https://packagehub.suse.com/\":\"pam\"": {
             "pkg:deb/debian/pam": 1
@@ -29139,6 +29145,9 @@
         },
         "\"https://pypi.org\":\"pip\"": {
             "pkg:deb/debian/python-pip": 2
+        },
+        "\"https://pypi.org\":\"pydantic\"": {
+            "pkg:deb/debian/pydantic": 2
         },
         "\"https://pypi.org/\":\"pyarrow\"": {
             "pkg:deb/debian/apache-arrow": 1
@@ -31651,7 +31660,10 @@
             "pkg:deb/debian/tinymce": 3
         },
         "pkg:nuget/log4net": {
-            "pkg:deb/debian/log4net": 7
+            "pkg:deb/debian/log4net": 10
+        },
+        "pkg:nuget/log4net.Ext.Mail": {
+            "pkg:deb/debian/log4net": 1
         },
         "pkg:oci/gleam?repository_url=ghcr.io%2Fgleam-lang%2Fgleam": {
             "pkg:deb/debian/gleam": 6
