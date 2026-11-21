@@ -7107,7 +7107,9 @@
             "\"gittuf\":\"gittuf\""
         ],
         "CPEs": null,
-        "PackageIDs": null,
+        "PackageIDs": [
+            "\"https://pkg.go.dev\":\"github.com/gittuf/gittuf\""
+        ],
         "PackageURLs": null
     },
     "pkg:deb/debian/gksu-polkit": {
@@ -10302,6 +10304,14 @@
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"gvfs\"",
             "\"https://gitlab.gnome.org/GNOME/gvfs\":\"gvfs\""
         ],
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/gvmd": {
+        "VendorProductIDs": [
+            "\"greenbone\":\"gvmd\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
         "PackageURLs": null
     },
     "pkg:deb/debian/gzdoom": {
@@ -15298,6 +15308,7 @@
     },
     "pkg:deb/debian/libnet-dns-perl": {
         "VendorProductIDs": [
+            "\"nlnet labs\":\"net::dns\"",
             "\"nlnetlabs\":\"net::dns\""
         ],
         "CPEs": null,
@@ -25059,6 +25070,14 @@
             "\"enterprisedb\":\"pglogical\"",
             "\"n/a\":\"pglogical\"",
             "\"pgedge\":\"spock\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/pgpainless": {
+        "VendorProductIDs": [
+            "\"pgpainless\":\"pgpainless\""
         ],
         "CPEs": null,
         "PackageIDs": null,

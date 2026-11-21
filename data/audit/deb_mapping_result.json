@@ -2426,7 +2426,7 @@
             "pkg:deb/debian/wordpress": 4
         },
         "\"avahi\":\"avahi\"": {
-            "pkg:deb/debian/avahi": 12
+            "pkg:deb/debian/avahi": 14
         },
         "\"awesomized\":\"libmemcached\"": {
             "pkg:deb/debian/libmemcached": 1
@@ -3133,7 +3133,7 @@
             "pkg:deb/debian/clamav": 2
         },
         "\"cisco\":\"cisco secure endpoint\"": {
-            "pkg:deb/debian/clamav": 20
+            "pkg:deb/debian/clamav": 30
         },
         "\"cisco\":\"cisco secure web appliance\"": {
             "pkg:deb/debian/clamav": 1
@@ -4262,7 +4262,7 @@
             "pkg:deb/debian/libcatalyst-plugin-authentication-perl": 1
         },
         "\"ether\":\"etherpad\"": {
-            "pkg:deb/debian/etherpad-lite": 6
+            "pkg:deb/debian/etherpad-lite": 7
         },
         "\"ether\":\"etherpad-lite\"": {
             "pkg:deb/debian/etherpad-lite": 1
@@ -5051,7 +5051,7 @@
             "pkg:deb/debian/python-git": 42
         },
         "\"gittuf\":\"gittuf\"": {
-            "pkg:deb/debian/gittuf": 1
+            "pkg:deb/debian/gittuf": 5
         },
         "\"giuspen\":\"cherrytree\"": {
             "pkg:deb/debian/cherrytree": 2
@@ -6290,6 +6290,9 @@
         },
         "\"graylog2\":\"graylog2-server\"": {
             "pkg:deb/debian/graylog2": 15
+        },
+        "\"greenbone\":\"gvmd\"": {
+            "pkg:deb/debian/gvmd": 1
         },
         "\"greyclab\":\"cimg\"": {
             "pkg:deb/debian/cimg": 4
@@ -8585,7 +8588,7 @@
             "pkg:deb/debian/node-maplibre-geojson-vt": 1
         },
         "\"mapserver\":\"mapserver\"": {
-            "pkg:deb/debian/mapserver": 6
+            "pkg:deb/debian/mapserver": 12
         },
         "\"mar10\":\"wsgidav\"": {
             "pkg:deb/debian/python-wsgidav": 1
@@ -9299,7 +9302,7 @@
             "pkg:deb/debian/libbson-xs-perl": 1
         },
         "\"mongodb\":\"c driver\"": {
-            "pkg:deb/debian/mongo-c-driver": 19
+            "pkg:deb/debian/mongo-c-driver": 20
         },
         "\"mongodb\":\"c++ driver\"": {
             "pkg:deb/debian/mongo-cxx-driver": 5
@@ -9312,10 +9315,10 @@
             "pkg:deb/debian/mongo-tools": 5
         },
         "\"mongodb\":\"go driver\"": {
-            "pkg:deb/debian/golang-mongodb-mongo-driver": 4
+            "pkg:deb/debian/golang-mongodb-mongo-driver": 6
         },
         "\"mongodb\":\"java driver\"": {
-            "pkg:deb/debian/mongo-java-driver": 3
+            "pkg:deb/debian/mongo-java-driver": 6
         },
         "\"mongodb\":\"java_driver\"": {
             "pkg:deb/debian/mongo-java-driver": 1
@@ -9347,10 +9350,10 @@
         },
         "\"mongodb\":\"php driver\"": {
             "pkg:deb/debian/mongo-c-driver": 1,
-            "pkg:deb/debian/php-mongodb": 4
+            "pkg:deb/debian/php-mongodb": 5
         },
         "\"mongodb\":\"python driver\"": {
-            "pkg:deb/debian/pymongo": 5
+            "pkg:deb/debian/pymongo": 7
         },
         "\"mongodb\":\"ruby driver\"": {
             "pkg:deb/debian/ruby-mongo": 1
@@ -12280,7 +12283,7 @@
             "pkg:deb/debian/less": 1
         },
         "\"netatalk\":\"netatalk\"": {
-            "pkg:deb/debian/netatalk": 46
+            "pkg:deb/debian/netatalk": 60
         },
         "\"netbox labs\":\"netbox\"": {
             "pkg:deb/debian/netbox": 1
@@ -12449,6 +12452,9 @@
         "\"nlnet labs\":\"ldns\"": {
             "pkg:deb/debian/ldns": 1
         },
+        "\"nlnet labs\":\"net::dns\"": {
+            "pkg:deb/debian/libnet-dns-perl": 1
+        },
         "\"nlnet labs\":\"nsd\"": {
             "pkg:deb/debian/nsd": 13,
             "pkg:deb/debian/unbound": 1
@@ -12532,7 +12538,7 @@
             "pkg:deb/debian/nodejs": 16
         },
         "\"nodejs\":\"undici\"": {
-            "pkg:deb/debian/node-undici": 15
+            "pkg:deb/debian/node-undici": 16
         },
         "\"nodemailer\":\"nodemailer\"": {
             "pkg:deb/debian/node-nodemailer": 25
@@ -13579,7 +13585,7 @@
         "\"openssl\":\"openssl\"": {
             "pkg:deb/debian/edk2": 1,
             "pkg:deb/debian/libtomcrypt": 1,
-            "pkg:deb/debian/openssl": 151,
+            "pkg:deb/debian/openssl": 153,
             "pkg:deb/debian/openssl1.0": 30
         },
         "\"openstack foundation\":\"openstack-cinder\"": {
@@ -14234,6 +14240,9 @@
         },
         "\"pgjdbc\":\"pgjdbc\"": {
             "pkg:deb/debian/libpgjava": 9
+        },
+        "\"pgpainless\":\"pgpainless\"": {
+            "pkg:deb/debian/pgpainless": 1
         },
         "\"pgpartman\":\"pg_partman\"": {
             "pkg:deb/debian/pg-partman": 7
@@ -15091,7 +15100,7 @@
             "pkg:deb/debian/qt6-declarative": 3,
             "pkg:deb/debian/qt6-imageformats": 1,
             "pkg:deb/debian/qt6-svg": 4,
-            "pkg:deb/debian/qtbase-opensource-src": 22,
+            "pkg:deb/debian/qtbase-opensource-src": 21,
             "pkg:deb/debian/qtbase-opensource-src-gles": 9,
             "pkg:deb/debian/qtconnectivity-opensource-src": 2,
             "pkg:deb/debian/qtdeclarative-opensource-src": 2,
@@ -22763,7 +22772,7 @@
             "pkg:deb/debian/nodejs": 15
         },
         "cpe:2.3:a:nodejs:undici:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/node-undici": 3
+            "pkg:deb/debian/node-undici": 4
         },
         "cpe:2.3:a:nodemailer:nodemailer:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/node-nodemailer": 23
@@ -23554,7 +23563,7 @@
             "pkg:deb/debian/qt6-imageformats": 1,
             "pkg:deb/debian/qt6-svg": 4,
             "pkg:deb/debian/qt6-websockets": 2,
-            "pkg:deb/debian/qtbase-opensource-src": 22,
+            "pkg:deb/debian/qtbase-opensource-src": 21,
             "pkg:deb/debian/qtbase-opensource-src-gles": 9,
             "pkg:deb/debian/qtconnectivity-opensource-src": 2,
             "pkg:deb/debian/qtdeclarative-opensource-src": 2,
@@ -23570,7 +23579,7 @@
         "cpe:2.3:a:qt:qtbase:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/qt6-5compat": 5,
             "pkg:deb/debian/qt6-base": 8,
-            "pkg:deb/debian/qtbase-opensource-src": 12,
+            "pkg:deb/debian/qtbase-opensource-src": 11,
             "pkg:deb/debian/qtbase-opensource-src-gles": 4
         },
         "cpe:2.3:a:qt:qthttpserver:*:*:*:*:*:*:*:*": {
@@ -28701,6 +28710,9 @@
         },
         "\"https://pkg.go.dev\":\"github.com/gin-gonic/gin\"": {
             "pkg:deb/debian/golang-github-gin-gonic-gin": 2
+        },
+        "\"https://pkg.go.dev\":\"github.com/gittuf/gittuf\"": {
+            "pkg:deb/debian/gittuf": 4
         },
         "\"https://pkg.go.dev\":\"github.com/go-chi/chi/v5\"": {
             "pkg:deb/debian/golang-github-go-chi-chi": 1
