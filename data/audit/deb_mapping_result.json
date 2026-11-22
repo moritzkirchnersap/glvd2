@@ -2996,7 +2996,7 @@
             "pkg:deb/debian/asterisk": 1
         },
         "\"cesanta\":\"mongoose\"": {
-            "pkg:deb/debian/mongoose": 24,
+            "pkg:deb/debian/mongoose": 27,
             "pkg:deb/debian/smplayer": 8,
             "pkg:deb/debian/swupdate": 9
         },
@@ -6202,7 +6202,7 @@
             "pkg:deb/debian/ausweisapp2": 1
         },
         "\"gpac\":\"gpac\"": {
-            "pkg:deb/debian/gpac": 73
+            "pkg:deb/debian/gpac": 111
         },
         "\"gpac\":\"gpac/gpac\"": {
             "pkg:deb/debian/gpac": 47
@@ -8107,7 +8107,7 @@
             "pkg:deb/debian/libxmltok": 2
         },
         "\"libexpat\":\"libexpat\"": {
-            "pkg:deb/debian/expat": 9
+            "pkg:deb/debian/expat": 10
         },
         "\"libexpat_project\":\"libexpat\"": {
             "pkg:deb/debian/expat": 3,
@@ -13384,7 +13384,7 @@
             "pkg:deb/debian/pdns-recursor": 3
         },
         "\"open5gs\":\"open5gs\"": {
-            "pkg:deb/debian/open5gs": 18
+            "pkg:deb/debian/open5gs": 19
         },
         "\"open62541 project / o6 automation gmbh\":\"open62541\"": {
             "pkg:deb/debian/open62541": 2
@@ -15303,7 +15303,7 @@
             "pkg:deb/debian/libfile-find-rule-perl": 1
         },
         "\"rclone\":\"rclone\"": {
-            "pkg:deb/debian/rclone": 42
+            "pkg:deb/debian/rclone": 49
         },
         "\"rdesktop\":\"rdesktop\"": {
             "pkg:deb/debian/rdesktop": 4
@@ -20857,7 +20857,7 @@
             "pkg:deb/debian/snapd": 3
         },
         "cpe:2.3:a:cesanta:mongoose:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/mongoose": 10,
+            "pkg:deb/debian/mongoose": 12,
             "pkg:deb/debian/swupdate": 8
         },
         "cpe:2.3:a:cesnet:libyang:*:*:*:*:*:*:*:*": {
@@ -21684,7 +21684,7 @@
             "pkg:deb/debian/ausweisapp2": 1
         },
         "cpe:2.3:a:gpac:gpac:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/gpac": 126
+            "pkg:deb/debian/gpac": 164
         },
         "cpe:2.3:a:gpsd_project:gpsd:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/gpsd": 2
@@ -22157,7 +22157,7 @@
             "pkg:deb/debian/libxmltok": 2
         },
         "cpe:2.3:a:libexpat_project:libexpat:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/expat": 37,
+            "pkg:deb/debian/expat": 38,
             "pkg:deb/debian/firefox": 1,
             "pkg:deb/debian/firefox-esr": 1,
             "pkg:deb/debian/libxmltok": 3,
@@ -22955,7 +22955,7 @@
             "pkg:deb/debian/dovecot": 1
         },
         "cpe:2.3:a:open5gs:open5gs:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/open5gs": 121
+            "pkg:deb/debian/open5gs": 122
         },
         "cpe:2.3:a:open62541:open62541:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/open62541": 6
@@ -23652,7 +23652,7 @@
             "pkg:deb/debian/unrar-nonfree": 2
         },
         "cpe:2.3:a:rclone:rclone:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/rclone": 21
+            "pkg:deb/debian/rclone": 28
         },
         "cpe:2.3:a:rdesktop:rdesktop:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/rdesktop": 3
@@ -26372,7 +26372,7 @@
             "pkg:deb/debian/wildfly": 1
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"wildfly-iiop-openjdk\"": {
-            "pkg:deb/debian/wildfly": 3
+            "pkg:deb/debian/wildfly": 2
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"wildfly-io\"": {
             "pkg:deb/debian/wildfly": 1
@@ -30647,6 +30647,9 @@
         "pkg:github/canboat/canboat": {
             "pkg:deb/debian/canboat": 1
         },
+        "pkg:github/cesanta/mongoose": {
+            "pkg:deb/debian/mongoose": 3
+        },
         "pkg:github/composefs/tar-rs": {
             "pkg:deb/debian/rust-tar": 1
         },
@@ -30743,7 +30746,7 @@
             "pkg:deb/debian/glpi": 2
         },
         "pkg:github/gpac/gpac": {
-            "pkg:deb/debian/gpac": 49
+            "pkg:deb/debian/gpac": 87
         },
         "pkg:github/gridcf/gct": {
             "pkg:deb/debian/globus-gss-assist": 1
@@ -30815,7 +30818,7 @@
             "pkg:deb/debian/liblas": 1
         },
         "pkg:github/libexpat/libexpat": {
-            "pkg:deb/debian/expat": 10
+            "pkg:deb/debian/expat": 11
         },
         "pkg:github/libgme/game-music-emu": {
             "pkg:deb/debian/game-music-emu": 2
@@ -30954,7 +30957,7 @@
             "pkg:deb/debian/ollama": 1
         },
         "pkg:github/open5gs/open5gs": {
-            "pkg:deb/debian/open5gs": 3
+            "pkg:deb/debian/open5gs": 4
         },
         "pkg:github/open62541/open62541": {
             "pkg:deb/debian/open62541": 1
@@ -31121,6 +31124,9 @@
         "pkg:github/zeek/zeek": {
             "pkg:deb/debian/zeek": 2
         },
+        "pkg:githubactions/rclone/rclone": {
+            "pkg:deb/debian/rclone": 1
+        },
         "pkg:gitlab/teuniz/edfbrowser": {
             "pkg:deb/debian/edfbrowser": 1
         },
@@ -31188,7 +31194,7 @@
             "pkg:deb/debian/opentofu": 3
         },
         "pkg:golang/github.com/rclone/rclone": {
-            "pkg:deb/debian/rclone": 20
+            "pkg:deb/debian/rclone": 26
         },
         "pkg:golang/github.com/seaweedfs/seaweedfs": {
             "pkg:deb/debian/seaweedfs": 1

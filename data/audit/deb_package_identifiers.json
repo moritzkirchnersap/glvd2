@@ -18923,7 +18923,9 @@
             "cpe:2.3:a:cesanta:mongoose:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/cesanta/mongoose"
+        ]
     },
     "pkg:deb/debian/monit": {
         "VendorProductIDs": [
@@ -29528,6 +29530,7 @@
         ],
         "PackageIDs": null,
         "PackageURLs": [
+            "pkg:githubactions/rclone/rclone",
             "pkg:golang/github.com/diskfs/go-diskfs",
             "pkg:golang/github.com/rclone/rclone"
         ]
