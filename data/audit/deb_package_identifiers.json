@@ -6271,7 +6271,8 @@
             "\"https://www.freerdp.com/\":\"freerdp\""
         ],
         "PackageURLs": [
-            "pkg:github/FreeRDP/FreeRDP"
+            "pkg:github/FreeRDP/FreeRDP",
+            "pkg:github/freerdp/freerdp"
         ]
     },
     "pkg:deb/debian/freerdp3": {
@@ -6285,7 +6286,8 @@
             "\"https://www.freerdp.com/\":\"freerdp\""
         ],
         "PackageURLs": [
-            "pkg:github/FreeRDP/FreeRDP"
+            "pkg:github/FreeRDP/FreeRDP",
+            "pkg:github/freerdp/freerdp"
         ]
     },
     "pkg:deb/debian/freeswan": {
@@ -8709,6 +8711,18 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/golang-github-elazarl-goproxy": {
+        "VendorProductIDs": [
+            "\"elazarl\":\"goproxy\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:goproxy_project:goproxy:*:*:*:*:*:*:*:*"
+        ],
+        "PackageIDs": null,
+        "PackageURLs": [
+            "pkg:golang/github.com/elazarl/goproxy"
+        ]
+    },
     "pkg:deb/debian/golang-github-emicklei-go-restful": {
         "VendorProductIDs": [
             "\"emicklei\":\"emicklei/go-restful\""
@@ -10669,9 +10683,12 @@
     },
     "pkg:deb/debian/highlight.js": {
         "VendorProductIDs": [
+            "\"highlight\":\"highlight.js\"",
             "\"highlightjs\":\"highlight.js\""
         ],
-        "CPEs": null,
+        "CPEs": [
+            "cpe:2.3:a:highlight:highlight.js:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": null,
         "PackageURLs": null
     },
@@ -13680,6 +13697,18 @@
             "pkg:github/obgm/libcoap"
         ]
     },
+    "pkg:deb/debian/libcommons-codec-java": {
+        "VendorProductIDs": [
+            "\"apache software foundation\":\"apache commons codec\""
+        ],
+        "CPEs": null,
+        "PackageIDs": [
+            "\"https://repo.maven.apache.org/maven2\":\"commons-codec:commons-codec\""
+        ],
+        "PackageURLs": [
+            "pkg:maven/commons-codec/commons-codec"
+        ]
+    },
     "pkg:deb/debian/libcommons-compress-java": {
         "VendorProductIDs": [
             "\"apache software foundation\":\"apache commons compress\""
@@ -15921,9 +15950,12 @@
     },
     "pkg:deb/debian/libretro-snes9x": {
         "VendorProductIDs": [
+            "\"n/a\":\"snes9x\"",
             "\"snes9x team\":\"snes9x\""
         ],
-        "CPEs": null,
+        "CPEs": [
+            "cpe:2.3:a:snes9x:snes9x:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": null,
         "PackageURLs": null
     },
@@ -35508,7 +35540,9 @@
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"vim\"",
             "\"https://catalog.redhat.com/software/containers/\":\"vim-main\""
         ],
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/vim/vim"
+        ]
     },
     "pkg:deb/debian/vino": {
         "VendorProductIDs": [
@@ -35943,6 +35977,7 @@
     "pkg:deb/debian/weblate": {
         "VendorProductIDs": [
             "\"n/a\":\"weblate\"",
+            "\"weblate\":\"weblate\"",
             "\"weblateorg\":\"weblate\""
         ],
         "CPEs": [
@@ -36028,6 +36063,16 @@
         "PackageIDs": null,
         "PackageURLs": [
             "pkg:github/wekan/wekan"
+        ]
+    },
+    "pkg:deb/debian/wfuzz": {
+        "VendorProductIDs": [
+            "\"xmendez\":\"wfuzz\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": [
+            "pkg:pypi/wfuzz"
         ]
     },
     "pkg:deb/debian/wget": {

@@ -1433,6 +1433,9 @@
         "\"apache software foundation\":\"apache commons beanutils 2.x\"": {
             "pkg:deb/debian/commons-beanutils": 1
         },
+        "\"apache software foundation\":\"apache commons codec\"": {
+            "pkg:deb/debian/libcommons-codec-java": 1
+        },
         "\"apache software foundation\":\"apache commons compress\"": {
             "pkg:deb/debian/libcommons-compress-java": 10
         },
@@ -2357,7 +2360,7 @@
             "pkg:deb/debian/assertj-core": 1
         },
         "\"assimp\":\"assimp\"": {
-            "pkg:deb/debian/assimp": 14
+            "pkg:deb/debian/assimp": 24
         },
         "\"asterisk\":\"asterisk\"": {
             "pkg:deb/debian/asterisk": 37
@@ -4142,6 +4145,9 @@
         "\"elastic\":\"packetbeat\"": {
             "pkg:deb/debian/packetbeat": 7
         },
+        "\"elazarl\":\"goproxy\"": {
+            "pkg:deb/debian/golang-github-elazarl-goproxy": 1
+        },
         "\"electron\":\"electron\"": {
             "pkg:deb/debian/electron": 68
         },
@@ -4482,7 +4488,7 @@
             "pkg:deb/debian/fetchmail": 1
         },
         "\"ffmpeg\":\"ffmpeg\"": {
-            "pkg:deb/debian/ffmpeg": 169
+            "pkg:deb/debian/ffmpeg": 205
         },
         "\"ffuf\":\"ffuf\"": {
             "pkg:deb/debian/ffuf": 1
@@ -4692,8 +4698,8 @@
         },
         "\"freerdp\":\"freerdp\"": {
             "pkg:deb/debian/freerdp": 41,
-            "pkg:deb/debian/freerdp2": 316,
-            "pkg:deb/debian/freerdp3": 255
+            "pkg:deb/debian/freerdp2": 317,
+            "pkg:deb/debian/freerdp3": 256
         },
         "\"freeswitch\":\"sofia-sip\"": {
             "pkg:deb/debian/sofia-sip": 6
@@ -4718,7 +4724,7 @@
             "pkg:deb/debian/unearth": 1
         },
         "\"froxlor\":\"froxlor\"": {
-            "pkg:deb/debian/froxlor": 53
+            "pkg:deb/debian/froxlor": 54
         },
         "\"froxlor\":\"froxlor/froxlor\"": {
             "pkg:deb/debian/froxlor": 26
@@ -5133,7 +5139,7 @@
             "pkg:deb/debian/gdm3": 1
         },
         "\"gnome\":\"gimp\"": {
-            "pkg:deb/debian/gimp": 12
+            "pkg:deb/debian/gimp": 13
         },
         "\"gnome\":\"glade\"": {
             "pkg:deb/debian/glade": 1
@@ -6738,6 +6744,9 @@
         },
         "\"hickory-dns\":\"hickory-resolver\"": {
             "pkg:deb/debian/rust-hickory-resolver": 1
+        },
+        "\"highlight\":\"highlight.js\"": {
+            "pkg:deb/debian/highlight.js": 1
         },
         "\"highlightjs\":\"highlight.js\"": {
             "pkg:deb/debian/highlight.js": 1
@@ -11872,6 +11881,9 @@
         "\"n/a\":\"snapd\"": {
             "pkg:deb/debian/snapd": 1
         },
+        "\"n/a\":\"snes9x\"": {
+            "pkg:deb/debian/libretro-snes9x": 1
+        },
         "\"n/a\":\"sockjs\"": {
             "pkg:deb/debian/node-socks": 1
         },
@@ -12485,7 +12497,7 @@
             "pkg:deb/debian/unbound": 2
         },
         "\"nltk\":\"nltk\"": {
-            "pkg:deb/debian/nltk": 56
+            "pkg:deb/debian/nltk": 66
         },
         "\"nltk\":\"nltk/nltk\"": {
             "pkg:deb/debian/nltk": 11
@@ -12550,7 +12562,7 @@
             "pkg:deb/debian/node-undici": 16
         },
         "\"nodemailer\":\"nodemailer\"": {
-            "pkg:deb/debian/node-nodemailer": 25
+            "pkg:deb/debian/node-nodemailer": 26
         },
         "\"noderedis\":\"node-redis\"": {
             "pkg:deb/debian/node-redis": 1
@@ -13317,7 +13329,7 @@
             "pkg:deb/debian/assimp": 1
         },
         "\"open asset import library\":\"assimp\"": {
-            "pkg:deb/debian/assimp": 47
+            "pkg:deb/debian/assimp": 52
         },
         "\"open babel\":\"open babel\"": {
             "pkg:deb/debian/openbabel": 14
@@ -13371,7 +13383,7 @@
             "pkg:deb/debian/golang-opentelemetry-otel": 11
         },
         "\"open-telemetry\":\"opentelemetry-python\"": {
-            "pkg:deb/debian/python-opentelemetry": 2
+            "pkg:deb/debian/python-opentelemetry": 3
         },
         "\"open-xchange gmbh\":\"ox dovecot ce\"": {
             "pkg:deb/debian/dovecot": 25
@@ -13597,7 +13609,7 @@
         "\"openssl\":\"openssl\"": {
             "pkg:deb/debian/edk2": 1,
             "pkg:deb/debian/libtomcrypt": 1,
-            "pkg:deb/debian/openssl": 153,
+            "pkg:deb/debian/openssl": 154,
             "pkg:deb/debian/openssl1.0": 30
         },
         "\"openstack foundation\":\"openstack-cinder\"": {
@@ -14148,7 +14160,7 @@
             "pkg:deb/debian/node-path-to-regexp": 3
         },
         "\"patrickjuchli\":\"basic-ftp\"": {
-            "pkg:deb/debian/node-proxy-agents": 5
+            "pkg:deb/debian/node-proxy-agents": 7
         },
         "\"pavel-odintsov\":\"fastnetmon\"": {
             "pkg:deb/debian/fastnetmon": 6
@@ -16258,7 +16270,7 @@
             "pkg:deb/debian/libstb": 1
         },
         "\"seaweedfs\":\"seaweedfs\"": {
-            "pkg:deb/debian/seaweedfs": 13
+            "pkg:deb/debian/seaweedfs": 15
         },
         "\"sebastianbergmann\":\"phpunit\"": {
             "pkg:deb/debian/phpunit": 3
@@ -18922,7 +18934,7 @@
             "pkg:deb/debian/libimager-perl": 1
         },
         "\"tornadoweb\":\"tornado\"": {
-            "pkg:deb/debian/python-tornado": 26,
+            "pkg:deb/debian/python-tornado": 27,
             "pkg:deb/debian/salt": 1
         },
         "\"torprject\":\"tor\"": {
@@ -19443,7 +19455,7 @@
             "pkg:deb/debian/vifm": 2
         },
         "\"vim\":\"vim\"": {
-            "pkg:deb/debian/vim": 73
+            "pkg:deb/debian/vim": 74
         },
         "\"vim\":\"vim/vim\"": {
             "pkg:deb/debian/vim": 159
@@ -19595,6 +19607,9 @@
         },
         "\"webkul\":\"aureus erp\"": {
             "pkg:deb/debian/misp": 1
+        },
+        "\"weblate\":\"weblate\"": {
+            "pkg:deb/debian/weblate": 1
         },
         "\"weblateorg\":\"weblate\"": {
             "pkg:deb/debian/weblate": 47
@@ -19951,6 +19966,9 @@
         },
         "\"xmedcon\":\"medcon\"": {
             "pkg:deb/debian/xmedcon": 1
+        },
+        "\"xmendez\":\"wfuzz\"": {
+            "pkg:deb/debian/wfuzz": 1
         },
         "\"xmind\":\"xmind\"": {
             "pkg:deb/debian/xmind": 1
@@ -20673,7 +20691,7 @@
             "pkg:deb/debian/asio": 1
         },
         "cpe:2.3:a:assimp:assimp:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/assimp": 38
+            "pkg:deb/debian/assimp": 53
         },
         "cpe:2.3:a:asterisk:asterisk:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/asterisk": 2
@@ -21261,7 +21279,7 @@
             "pkg:deb/debian/fetchmail": 1
         },
         "cpe:2.3:a:ffmpeg:ffmpeg:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/ffmpeg": 161
+            "pkg:deb/debian/ffmpeg": 197
         },
         "cpe:2.3:a:filezilla-project:filezilla_client:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/filezilla": 1
@@ -21328,8 +21346,8 @@
             "pkg:deb/debian/freeradius": 1
         },
         "cpe:2.3:a:freerdp:freerdp:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/freerdp2": 173,
-            "pkg:deb/debian/freerdp3": 173
+            "pkg:deb/debian/freerdp2": 174,
+            "pkg:deb/debian/freerdp3": 174
         },
         "cpe:2.3:a:frontaccounting:frontaccounting:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/frontaccounting": 6
@@ -21342,7 +21360,7 @@
             "pkg:deb/debian/unearth": 1
         },
         "cpe:2.3:a:froxlor:froxlor:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/froxlor": 32
+            "pkg:deb/debian/froxlor": 33
         },
         "cpe:2.3:a:frrouting:frrouting:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/frr": 14
@@ -21681,6 +21699,9 @@
         "cpe:2.3:a:google:v8:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/chromium": 2
         },
+        "cpe:2.3:a:goproxy_project:goproxy:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/golang-github-elazarl-goproxy": 1
+        },
         "cpe:2.3:a:gorillatoolkit:schema:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/golang-github-gorilla-schema": 1
         },
@@ -21808,6 +21829,9 @@
             "pkg:deb/debian/erlang": 1,
             "pkg:deb/debian/erlang-hex": 4,
             "pkg:deb/debian/rebar3": 3
+        },
+        "cpe:2.3:a:highlight:highlight.js:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/highlight.js": 1
         },
         "cpe:2.3:a:horde:horde_imp:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/php-horde-imp": 1
@@ -22760,7 +22784,7 @@
             "pkg:deb/debian/unbound": 2
         },
         "cpe:2.3:a:nltk:nltk:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/nltk": 30
+            "pkg:deb/debian/nltk": 40
         },
         "cpe:2.3:a:nmap:nmap:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/nmap": 2
@@ -22787,7 +22811,7 @@
             "pkg:deb/debian/node-undici": 4
         },
         "cpe:2.3:a:nodemailer:nodemailer:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/node-nodemailer": 23
+            "pkg:deb/debian/node-nodemailer": 24
         },
         "cpe:2.3:a:nokogiri:nokogiri:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/ruby-nokogiri": 4
@@ -23925,7 +23949,7 @@
             "pkg:deb/debian/scylladb": 1
         },
         "cpe:2.3:a:seaweedfs:seaweedfs:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/seaweedfs": 2
+            "pkg:deb/debian/seaweedfs": 4
         },
         "cpe:2.3:a:sensiolabs:symfony:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/symfony": 17
@@ -23979,6 +24003,9 @@
         },
         "cpe:2.3:a:snakeyaml_project:snakeyaml:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/snakeyaml": 1
+        },
+        "cpe:2.3:a:snes9x:snes9x:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/libretro-snes9x": 1
         },
         "cpe:2.3:a:snipeitapp:snipe-it:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/snipe-it": 60
@@ -24312,7 +24339,7 @@
             "pkg:deb/debian/vlc": 5
         },
         "cpe:2.3:a:vim:vim:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/vim": 2
+            "pkg:deb/debian/vim": 3
         },
         "cpe:2.3:a:virtualenv:virtualenv:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/python-virtualenv": 1
@@ -24373,7 +24400,7 @@
             "pkg:deb/debian/misp": 1
         },
         "cpe:2.3:a:weblate:weblate:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/weblate": 4
+            "pkg:deb/debian/weblate": 5
         },
         "cpe:2.3:a:webmin:usermin:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/usermin": 3,
@@ -24941,7 +24968,7 @@
             "pkg:deb/debian/coreutils": 1
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"corosync\"": {
-            "pkg:deb/debian/corosync": 4
+            "pkg:deb/debian/corosync": 5
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"cpio\"": {
             "pkg:deb/debian/cpio": 1
@@ -24977,7 +25004,7 @@
             "pkg:deb/debian/dnf5": 2
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"dnsmasq\"": {
-            "pkg:deb/debian/dnsmasq": 13
+            "pkg:deb/debian/dnsmasq": 14
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"dogtag-pki\"": {
             "pkg:deb/debian/dogtag-pki": 7
@@ -25223,7 +25250,7 @@
             "pkg:deb/debian/giflib": 2
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gimp\"": {
-            "pkg:deb/debian/gimp": 73
+            "pkg:deb/debian/gimp": 74
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gimp:2.8\"": {
             "pkg:deb/debian/gimp": 18
@@ -26144,10 +26171,10 @@
             "pkg:deb/debian/rsync": 9
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"rsyslog\"": {
-            "pkg:deb/debian/rsyslog": 3
+            "pkg:deb/debian/rsyslog": 4
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"rsyslog7\"": {
-            "pkg:deb/debian/rsyslog": 3
+            "pkg:deb/debian/rsyslog": 4
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"ruby3.3\"": {
             "pkg:deb/debian/ruby3.3": 1
@@ -28210,7 +28237,7 @@
             "pkg:deb/debian/gi-docgen": 1
         },
         "\"https://gitlab.gnome.org/GNOME/gimp\":\"gimp\"": {
-            "pkg:deb/debian/gimp": 17
+            "pkg:deb/debian/gimp": 18
         },
         "\"https://gitlab.gnome.org/GNOME/gimp/\":\"gimp\"": {
             "pkg:deb/debian/gimp": 1
@@ -29311,6 +29338,9 @@
         },
         "\"https://repo.maven.apache.org/maven2\":\"commons-beanutils:commons-beanutils\"": {
             "pkg:deb/debian/commons-beanutils": 1
+        },
+        "\"https://repo.maven.apache.org/maven2\":\"commons-codec:commons-codec\"": {
+            "pkg:deb/debian/libcommons-codec-java": 1
         },
         "\"https://repo.maven.apache.org/maven2\":\"commons-configuration:commons-configuration\"": {
             "pkg:deb/debian/commons-configuration": 1,
@@ -30646,7 +30676,7 @@
             "pkg:deb/debian/bluez-alsa": 1
         },
         "pkg:github/assimp/assimp": {
-            "pkg:deb/debian/assimp": 7
+            "pkg:deb/debian/assimp": 17
         },
         "pkg:github/bakulf/libnxml": {
             "pkg:deb/debian/libnxml": 1
@@ -30731,7 +30761,7 @@
             "pkg:deb/debian/iperf3": 1
         },
         "pkg:github/ffmpeg/ffmpeg": {
-            "pkg:deb/debian/ffmpeg": 101
+            "pkg:deb/debian/ffmpeg": 136
         },
         "pkg:github/fltk/fltk": {
             "pkg:deb/debian/fltk1.3": 2,
@@ -30739,6 +30769,10 @@
         },
         "pkg:github/fluxbox/fluxbox": {
             "pkg:deb/debian/fluxbox": 2
+        },
+        "pkg:github/freerdp/freerdp": {
+            "pkg:deb/debian/freerdp2": 1,
+            "pkg:deb/debian/freerdp3": 1
         },
         "pkg:github/freeswitch/sofia-sip": {
             "pkg:deb/debian/sofia-sip": 1
@@ -31119,6 +31153,9 @@
         "pkg:github/videolan/vlc": {
             "pkg:deb/debian/vlc": 2
         },
+        "pkg:github/vim/vim": {
+            "pkg:deb/debian/vim": 1
+        },
         "pkg:github/vlang/v": {
             "pkg:deb/debian/vlang": 2
         },
@@ -31163,6 +31200,9 @@
         },
         "pkg:golang/github.com/dundee/gdu/v5": {
             "pkg:deb/debian/gdu": 1
+        },
+        "pkg:golang/github.com/elazarl/goproxy": {
+            "pkg:deb/debian/golang-github-elazarl-goproxy": 1
         },
         "pkg:golang/github.com/go-chi/chi": {
             "pkg:deb/debian/golang-github-go-chi-chi": 1
@@ -31219,7 +31259,7 @@
             "pkg:deb/debian/rclone": 26
         },
         "pkg:golang/github.com/seaweedfs/seaweedfs": {
-            "pkg:deb/debian/seaweedfs": 1
+            "pkg:deb/debian/seaweedfs": 3
         },
         "pkg:golang/github.com/traefik/traefik": {
             "pkg:deb/debian/traefik": 1
@@ -31272,6 +31312,9 @@
         },
         "pkg:maven/com.squareup.okhttp3/okhttp": {
             "pkg:deb/debian/libokhttp-java": 1
+        },
+        "pkg:maven/commons-codec/commons-codec": {
+            "pkg:deb/debian/libcommons-codec-java": 1
         },
         "pkg:maven/io.netty/netty-codec-classes-quic": {
             "pkg:deb/debian/netty": 1
@@ -31637,7 +31680,7 @@
             "pkg:deb/debian/node-node-forge": 1
         },
         "pkg:npm/nodemailer": {
-            "pkg:deb/debian/node-nodemailer": 23
+            "pkg:deb/debian/node-nodemailer": 24
         },
         "pkg:npm/open": {
             "pkg:deb/debian/node-open": 1
@@ -31847,7 +31890,7 @@
             "pkg:deb/debian/mopidy": 1
         },
         "pkg:pypi/nltk": {
-            "pkg:deb/debian/nltk": 30
+            "pkg:deb/debian/nltk": 40
         },
         "pkg:pypi/offlineimap": {
             "pkg:deb/debian/offlineimap3": 1
@@ -31911,7 +31954,10 @@
             "pkg:deb/debian/vllm": 52
         },
         "pkg:pypi/weblate": {
-            "pkg:deb/debian/weblate": 4
+            "pkg:deb/debian/weblate": 5
+        },
+        "pkg:pypi/wfuzz": {
+            "pkg:deb/debian/wfuzz": 1
         },
         "pkg:pypi/xhtml2pdf": {
             "pkg:deb/debian/xhtml2pdf": 1
