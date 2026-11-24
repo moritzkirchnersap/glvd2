@@ -323,10 +323,10 @@
             "pkg:deb/debian/activitywatch": 1
         },
         "\"actix\":\"actix-files\"": {
-            "pkg:deb/debian/rust-actix-files": 2
+            "pkg:deb/debian/rust-actix-files": 3
         },
         "\"actix\":\"actix-http\"": {
-            "pkg:deb/debian/rust-actix-http": 2,
+            "pkg:deb/debian/rust-actix-http": 4,
             "pkg:deb/debian/rust-actix-web": 1
         },
         "\"actix\":\"actix-web\"": {
@@ -1419,7 +1419,7 @@
             "pkg:deb/debian/brpc": 41
         },
         "\"apache software foundation\":\"apache buildstream\"": {
-            "pkg:deb/debian/buildstream": 1
+            "pkg:deb/debian/buildstream": 3
         },
         "\"apache software foundation\":\"apache cassandra\"": {
             "pkg:deb/debian/cassandra": 10
@@ -1696,7 +1696,7 @@
             "pkg:deb/debian/shiro": 25
         },
         "\"apache software foundation\":\"apache solr\"": {
-            "pkg:deb/debian/lucene-solr": 24
+            "pkg:deb/debian/lucene-solr": 26
         },
         "\"apache software foundation\":\"apache spamassassin\"": {
             "pkg:deb/debian/spamassassin": 6
@@ -4039,7 +4039,7 @@
             "pkg:deb/debian/mojarra": 2
         },
         "\"eclipse foundation\":\"eclipse mosquitto\"": {
-            "pkg:deb/debian/mosquitto": 6
+            "pkg:deb/debian/mosquitto": 7
         },
         "\"eclipse foundation\":\"eclipse rdf4j\"": {
             "pkg:deb/debian/rdf4j": 1
@@ -4382,7 +4382,7 @@
             "pkg:deb/debian/osquery": 1
         },
         "\"facebook\":\"zstandard\"": {
-            "pkg:deb/debian/libzstd": 3
+            "pkg:deb/debian/libzstd": 4
         },
         "\"facelessuser\":\"pymdown-extensions\"": {
             "pkg:deb/debian/pymdown-extensions": 5
@@ -4488,7 +4488,7 @@
             "pkg:deb/debian/fetchmail": 1
         },
         "\"ffmpeg\":\"ffmpeg\"": {
-            "pkg:deb/debian/ffmpeg": 205
+            "pkg:deb/debian/ffmpeg": 248
         },
         "\"ffuf\":\"ffuf\"": {
             "pkg:deb/debian/ffuf": 1
@@ -6397,6 +6397,9 @@
         "\"guimard\":\"apache::session::generate::sha256\"": {
             "pkg:deb/debian/libapache-session-browseable-perl": 1
         },
+        "\"gunicorn\":\"gunicorn\"": {
+            "pkg:deb/debian/gunicorn": 2
+        },
         "\"gutenberg team\":\"gutenberg\"": {
             "pkg:deb/debian/wordpress": 1
         },
@@ -7840,7 +7843,7 @@
             "pkg:deb/debian/keycloak": 15
         },
         "\"keycloak\":\"keycloak-services\"": {
-            "pkg:deb/debian/keycloak": 1
+            "pkg:deb/debian/keycloak": 2
         },
         "\"keystone\":\"keystone\"": {
             "pkg:deb/debian/keystone": 1
@@ -7913,7 +7916,7 @@
             "pkg:deb/debian/calibre": 15
         },
         "\"kovidgoyal\":\"kitty\"": {
-            "pkg:deb/debian/kitty": 8
+            "pkg:deb/debian/kitty": 9
         },
         "\"kozea\":\"cairosvg\"": {
             "pkg:deb/debian/cairosvg": 4
@@ -8151,7 +8154,7 @@
         },
         "\"libical\":\"libical\"": {
             "pkg:deb/debian/libical": 1,
-            "pkg:deb/debian/libical3": 1
+            "pkg:deb/debian/libical3": 2
         },
         "\"libimobiledevice\":\"usbmuxd\"": {
             "pkg:deb/debian/usbmuxd": 1
@@ -8364,7 +8367,7 @@
             "pkg:deb/debian/limesurvey": 2
         },
         "\"limesurvey\":\"limesurvey\"": {
-            "pkg:deb/debian/limesurvey": 26
+            "pkg:deb/debian/limesurvey": 27
         },
         "\"linaro/op-tee\":\"op-tee\"": {
             "pkg:deb/debian/optee-os": 7
@@ -8704,7 +8707,7 @@
         },
         "\"mattermost\":\"mattermost\"": {
             "pkg:deb/debian/mattermost-desktop": 12,
-            "pkg:deb/debian/mattermost-server": 444
+            "pkg:deb/debian/mattermost-server": 446
         },
         "\"mattermost\":\"mattermost_server\"": {
             "pkg:deb/debian/mattermost-server": 2
@@ -9112,7 +9115,7 @@
             "pkg:deb/debian/jxrlib": 4
         },
         "\"misp\":\"misp\"": {
-            "pkg:deb/debian/misp": 171
+            "pkg:deb/debian/misp": 200
         },
         "\"misp\":\"misp-stix\"": {
             "pkg:deb/debian/misp": 4
@@ -12638,7 +12641,7 @@
             "pkg:deb/debian/nltk": 1
         },
         "\"ntop\":\"ndpi\"": {
-            "pkg:deb/debian/ndpi": 3
+            "pkg:deb/debian/ndpi": 4
         },
         "\"ntop\":\"ntopng\"": {
             "pkg:deb/debian/ntopng": 10
@@ -13609,7 +13612,7 @@
         "\"openssl\":\"openssl\"": {
             "pkg:deb/debian/edk2": 1,
             "pkg:deb/debian/libtomcrypt": 1,
-            "pkg:deb/debian/openssl": 154,
+            "pkg:deb/debian/openssl": 155,
             "pkg:deb/debian/openssl1.0": 30
         },
         "\"openstack foundation\":\"openstack-cinder\"": {
@@ -14263,7 +14266,7 @@
             "pkg:deb/debian/pglogical": 1
         },
         "\"pgjdbc\":\"pgjdbc\"": {
-            "pkg:deb/debian/libpgjava": 9
+            "pkg:deb/debian/libpgjava": 17
         },
         "\"pgpainless\":\"pgpainless\"": {
             "pkg:deb/debian/pgpainless": 1
@@ -14418,7 +14421,7 @@
             "pkg:deb/debian/golang-github-pion-stun-v3": 1
         },
         "\"pip maintainers\":\"pip\"": {
-            "pkg:deb/debian/python-pip": 2
+            "pkg:deb/debian/python-pip": 3
         },
         "\"pistacheio\":\"pistache\"": {
             "pkg:deb/debian/pistache": 1
@@ -15118,13 +15121,13 @@
         },
         "\"qt\":\"qt\"": {
             "pkg:deb/debian/qt4-x11": 1,
-            "pkg:deb/debian/qt6-5compat": 7,
+            "pkg:deb/debian/qt6-5compat": 9,
             "pkg:deb/debian/qt6-base": 20,
             "pkg:deb/debian/qt6-connectivity": 2,
             "pkg:deb/debian/qt6-declarative": 3,
             "pkg:deb/debian/qt6-imageformats": 1,
             "pkg:deb/debian/qt6-svg": 4,
-            "pkg:deb/debian/qtbase-opensource-src": 21,
+            "pkg:deb/debian/qtbase-opensource-src": 23,
             "pkg:deb/debian/qtbase-opensource-src-gles": 9,
             "pkg:deb/debian/qtconnectivity-opensource-src": 2,
             "pkg:deb/debian/qtdeclarative-opensource-src": 2,
@@ -16499,6 +16502,10 @@
             "pkg:deb/debian/php8.2": 2,
             "pkg:deb/debian/php8.4": 2
         },
+        "\"siemens\":\"cp61850 (6dd7050-0aa80)\"": {
+            "pkg:deb/debian/php8.2": 2,
+            "pkg:deb/debian/php8.4": 2
+        },
         "\"siemens\":\"crsp\"": {
             "pkg:deb/debian/php8.2": 2,
             "pkg:deb/debian/php8.4": 2
@@ -16569,6 +16576,12 @@
             "pkg:deb/debian/php8.4": 2
         },
         "\"siemens\":\"flow creator configurator\"": {
+            "pkg:deb/debian/brotli": 1,
+            "pkg:deb/debian/edk2": 1,
+            "pkg:deb/debian/nodejs": 1,
+            "pkg:deb/debian/python-brotlicffi": 1
+        },
+        "\"siemens\":\"gdap (gproms digital application platform)\"": {
             "pkg:deb/debian/brotli": 1,
             "pkg:deb/debian/edk2": 1,
             "pkg:deb/debian/nodejs": 1,
@@ -16706,6 +16719,12 @@
             "pkg:deb/debian/python-brotlicffi": 1
         },
         "\"siemens\":\"integrated pa suite tester\"": {
+            "pkg:deb/debian/brotli": 1,
+            "pkg:deb/debian/edk2": 1,
+            "pkg:deb/debian/nodejs": 1,
+            "pkg:deb/debian/python-brotlicffi": 1
+        },
+        "\"siemens\":\"intralog wms kronos\"": {
             "pkg:deb/debian/brotli": 1,
             "pkg:deb/debian/edk2": 1,
             "pkg:deb/debian/nodejs": 1,
@@ -17338,6 +17357,12 @@
         "\"siemens\":\"siport\"": {
             "pkg:deb/debian/php8.2": 2,
             "pkg:deb/debian/php8.4": 2
+        },
+        "\"siemens\":\"sitop manager\"": {
+            "pkg:deb/debian/brotli": 1,
+            "pkg:deb/debian/edk2": 1,
+            "pkg:deb/debian/nodejs": 1,
+            "pkg:deb/debian/python-brotlicffi": 1
         },
         "\"siemens\":\"siveillance control pro\"": {
             "pkg:deb/debian/openjdk-17": 1,
@@ -20329,7 +20354,7 @@
             "pkg:deb/debian/rust-actix-files": 2
         },
         "cpe:2.3:a:actix:actix-http:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/rust-actix-http": 2,
+            "pkg:deb/debian/rust-actix-http": 4,
             "pkg:deb/debian/rust-actix-web": 1
         },
         "cpe:2.3:a:actix:actix-web:*:*:*:*:*:*:*:*": {
@@ -21279,7 +21304,7 @@
             "pkg:deb/debian/fetchmail": 1
         },
         "cpe:2.3:a:ffmpeg:ffmpeg:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/ffmpeg": 197
+            "pkg:deb/debian/ffmpeg": 240
         },
         "cpe:2.3:a:filezilla-project:filezilla_client:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/filezilla": 1
@@ -21772,6 +21797,9 @@
             "pkg:deb/debian/gst-plugins-bad0.10": 1,
             "pkg:deb/debian/gst-plugins-bad1.0": 1
         },
+        "cpe:2.3:a:gunicorn:gunicorn:*:*:*:*:*:*:*:*": {
+            "pkg:deb/debian/gunicorn": 2
+        },
         "cpe:2.3:a:guzzlephp:guzzle:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/guzzle": 4
         },
@@ -22121,7 +22149,7 @@
             "pkg:deb/debian/calibre": 1
         },
         "cpe:2.3:a:kovidgoyal:kitty:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/kitty": 6
+            "pkg:deb/debian/kitty": 7
         },
         "cpe:2.3:a:kubernetes:kubelet:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/kubernetes": 2
@@ -22210,7 +22238,7 @@
         },
         "cpe:2.3:a:libical_project:libical:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/libical": 1,
-            "pkg:deb/debian/libical3": 1
+            "pkg:deb/debian/libical3": 2
         },
         "cpe:2.3:a:libimobiledevice:libimobiledevice:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/libimobiledevice": 5
@@ -22294,7 +22322,7 @@
             "pkg:deb/debian/lighttpd": 2
         },
         "cpe:2.3:a:limesurvey:limesurvey:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/limesurvey": 24
+            "pkg:deb/debian/limesurvey": 25
         },
         "cpe:2.3:a:limesurvey:limesurvey_community_edition:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/limesurvey": 2
@@ -22489,7 +22517,7 @@
             "pkg:deb/debian/rust-mio-0.6": 1
         },
         "cpe:2.3:a:misp:misp:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/misp": 59
+            "pkg:deb/debian/misp": 88
         },
         "cpe:2.3:a:misp:misp_\\(malware_information_sharing_platform\\):*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/misp": 1
@@ -22835,7 +22863,7 @@
             "pkg:deb/debian/ghidra": 29
         },
         "cpe:2.3:a:ntop:ndpi:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/ndpi": 3
+            "pkg:deb/debian/ndpi": 4
         },
         "cpe:2.3:a:ntop:ntopng:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/ntopng": 3
@@ -23587,15 +23615,15 @@
             "pkg:deb/debian/qt6-3d": 1
         },
         "cpe:2.3:a:qt:qt5compat:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/qt6-5compat": 6,
-            "pkg:deb/debian/qtbase-opensource-src": 5,
+            "pkg:deb/debian/qt6-5compat": 8,
+            "pkg:deb/debian/qtbase-opensource-src": 7,
             "pkg:deb/debian/qtbase-opensource-src-gles": 1
         },
         "cpe:2.3:a:qt:qt:*:*:*:*:*:*:*:*": {
             "pkg:deb/debian/qt3d-opensource-src": 1,
             "pkg:deb/debian/qt4-x11": 1,
             "pkg:deb/debian/qt6-3d": 1,
-            "pkg:deb/debian/qt6-5compat": 7,
+            "pkg:deb/debian/qt6-5compat": 9,
             "pkg:deb/debian/qt6-base": 20,
             "pkg:deb/debian/qt6-connectivity": 2,
             "pkg:deb/debian/qt6-declarative": 3,
@@ -23603,7 +23631,7 @@
             "pkg:deb/debian/qt6-imageformats": 1,
             "pkg:deb/debian/qt6-svg": 4,
             "pkg:deb/debian/qt6-websockets": 2,
-            "pkg:deb/debian/qtbase-opensource-src": 21,
+            "pkg:deb/debian/qtbase-opensource-src": 23,
             "pkg:deb/debian/qtbase-opensource-src-gles": 9,
             "pkg:deb/debian/qtconnectivity-opensource-src": 2,
             "pkg:deb/debian/qtdeclarative-opensource-src": 2,
@@ -23617,9 +23645,9 @@
             "pkg:deb/debian/qtnetworkauth-everywhere-src": 1
         },
         "cpe:2.3:a:qt:qtbase:*:*:*:*:*:*:*:*": {
-            "pkg:deb/debian/qt6-5compat": 5,
+            "pkg:deb/debian/qt6-5compat": 7,
             "pkg:deb/debian/qt6-base": 8,
-            "pkg:deb/debian/qtbase-opensource-src": 11,
+            "pkg:deb/debian/qtbase-opensource-src": 13,
             "pkg:deb/debian/qtbase-opensource-src-gles": 4
         },
         "cpe:2.3:a:qt:qthttpserver:*:*:*:*:*:*:*:*": {
@@ -25207,20 +25235,14 @@
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-14-binutils\"": {
             "pkg:deb/debian/binutils": 9
         },
-        "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-14-gdb\"": {
-            "pkg:deb/debian/gdb": 5
-        },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-15-binutils\"": {
             "pkg:deb/debian/binutils": 9
-        },
-        "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-15-gdb\"": {
-            "pkg:deb/debian/gdb": 5
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-16-binutils\"": {
             "pkg:deb/debian/binutils": 3
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gdb\"": {
-            "pkg:deb/debian/gdb": 6
+            "pkg:deb/debian/gdb": 1
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"gdk-pixbuf2\"": {
             "pkg:deb/debian/gdk-pixbuf": 6
@@ -25394,7 +25416,7 @@
             "pkg:deb/debian/keycloak": 4
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-services\"": {
-            "pkg:deb/debian/keycloak": 142
+            "pkg:deb/debian/keycloak": 143
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"krb5\"": {
             "pkg:deb/debian/krb5": 13
@@ -26120,10 +26142,10 @@
             "pkg:deb/debian/pyasn1": 1
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"qemu-kvm\"": {
-            "pkg:deb/debian/qemu": 36
+            "pkg:deb/debian/qemu": 39
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"qemu-kvm-ma\"": {
-            "pkg:deb/debian/qemu": 36
+            "pkg:deb/debian/qemu": 39
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"qemu-kvm-rhev\"": {
             "pkg:deb/debian/qemu": 5
@@ -26171,10 +26193,10 @@
             "pkg:deb/debian/rsync": 9
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"rsyslog\"": {
-            "pkg:deb/debian/rsyslog": 4
+            "pkg:deb/debian/rsyslog": 6
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"rsyslog7\"": {
-            "pkg:deb/debian/rsyslog": 4
+            "pkg:deb/debian/rsyslog": 6
         },
         "\"https://access.redhat.com/downloads/content/package-browser/\":\"ruby3.3\"": {
             "pkg:deb/debian/ruby3.3": 1
@@ -27888,7 +27910,7 @@
             "pkg:deb/debian/keras": 1
         },
         "\"https://github.com/keycloak/keycloak\":\"keycloak\"": {
-            "pkg:deb/debian/keycloak": 31
+            "pkg:deb/debian/keycloak": 34
         },
         "\"https://github.com/keycloak/keycloak\":\"keycloak-core\"": {
             "pkg:deb/debian/keycloak": 1
@@ -27900,7 +27922,7 @@
             "pkg:deb/debian/keycloak": 3
         },
         "\"https://github.com/keycloak/keycloak\":\"org.keycloak:keycloak-services\"": {
-            "pkg:deb/debian/keycloak": 3
+            "pkg:deb/debian/keycloak": 4
         },
         "\"https://github.com/keycloak/keycloak/\":\"keycloak\"": {
             "pkg:deb/debian/keycloak": 4
@@ -29214,7 +29236,7 @@
             "pkg:deb/debian/lemur": 1
         },
         "\"https://pypi.org/project/pip\":\"pip\"": {
-            "pkg:deb/debian/python-pip": 4
+            "pkg:deb/debian/python-pip": 5
         },
         "\"https://pypi.org/project/pip\":\"sqlparse\"": {
             "pkg:deb/debian/sqlparse": 1
@@ -29241,7 +29263,7 @@
             "pkg:deb/debian/airflow": 1
         },
         "\"https://pypi.python.org\":\"buildstream\"": {
-            "pkg:deb/debian/buildstream": 1
+            "pkg:deb/debian/buildstream": 3
         },
         "\"https://pypi.python.org\":\"pyarrow\"": {
             "pkg:deb/debian/apache-arrow": 1
@@ -29596,7 +29618,7 @@
             "pkg:deb/debian/shiro": 6
         },
         "\"https://repo.maven.apache.org/maven2\":\"org.apache.solr:solr-core\"": {
-            "pkg:deb/debian/lucene-solr": 1
+            "pkg:deb/debian/lucene-solr": 3
         },
         "\"https://repo.maven.apache.org/maven2\":\"org.apache.spark:spark-hive-thriftserver_2.11\"": {
             "pkg:deb/debian/apache-spark": 1
@@ -29712,7 +29734,7 @@
             "pkg:deb/debian/jansi1": 1
         },
         "\"https://repo.maven.apache.org/maven2\":\"org.postgresql:postgresql\"": {
-            "pkg:deb/debian/libpgjava": 3
+            "pkg:deb/debian/libpgjava": 11
         },
         "\"https://repo.maven.apache.org/maven2\":\"pkg://maven/org.eclipse.jetty/jetty-http\"": {
             "pkg:deb/debian/jetty12": 1,
@@ -30192,10 +30214,10 @@
     },
     "package_urls": {
         "pkg:cargo/actix-files": {
-            "pkg:deb/debian/rust-actix-files": 2
+            "pkg:deb/debian/rust-actix-files": 3
         },
         "pkg:cargo/actix-http": {
-            "pkg:deb/debian/rust-actix-http": 2,
+            "pkg:deb/debian/rust-actix-http": 4,
             "pkg:deb/debian/rust-actix-web": 1
         },
         "pkg:cargo/actix-web": {
@@ -30761,7 +30783,7 @@
             "pkg:deb/debian/iperf3": 1
         },
         "pkg:github/ffmpeg/ffmpeg": {
-            "pkg:deb/debian/ffmpeg": 136
+            "pkg:deb/debian/ffmpeg": 179
         },
         "pkg:github/fltk/fltk": {
             "pkg:deb/debian/fltk1.3": 2,
@@ -30861,6 +30883,9 @@
         "pkg:github/kisli/vmime": {
             "pkg:deb/debian/libvmime": 2
         },
+        "pkg:github/kovidgoyal/kitty": {
+            "pkg:deb/debian/kitty": 1
+        },
         "pkg:github/krb5/krb5": {
             "pkg:deb/debian/krb5": 2
         },
@@ -30878,7 +30903,7 @@
         },
         "pkg:github/libical/libical": {
             "pkg:deb/debian/libical": 1,
-            "pkg:deb/debian/libical3": 1
+            "pkg:deb/debian/libical3": 2
         },
         "pkg:github/libjxl/libjxl": {
             "pkg:deb/debian/jpeg-xl": 1
@@ -30995,7 +31020,7 @@
             "pkg:deb/debian/ndpi": 1
         },
         "pkg:github/ntop/ndpi": {
-            "pkg:deb/debian/ndpi": 1
+            "pkg:deb/debian/ndpi": 2
         },
         "pkg:github/ntop/ntopng": {
             "pkg:deb/debian/ntopng": 2
@@ -31461,6 +31486,9 @@
         "pkg:maven/org.apache.shiro/shiro-web": {
             "pkg:deb/debian/shiro": 2
         },
+        "pkg:maven/org.apache.solr/solr-core": {
+            "pkg:deb/debian/lucene-solr": 2
+        },
         "pkg:maven/org.apache.sshd/sshd-core": {
             "pkg:deb/debian/libmina-sshd-java": 2
         },
@@ -31824,7 +31852,7 @@
             "pkg:deb/debian/erlang": 1
         },
         "pkg:pypi/BuildStream": {
-            "pkg:deb/debian/buildstream": 1
+            "pkg:deb/debian/buildstream": 3
         },
         "pkg:pypi/GitPython": {
             "pkg:deb/debian/python-git": 6
@@ -31861,6 +31889,9 @@
         },
         "pkg:pypi/gitpython": {
             "pkg:deb/debian/python-git": 28
+        },
+        "pkg:pypi/gunicorn": {
+            "pkg:deb/debian/gunicorn": 2
         },
         "pkg:pypi/jupyterhub": {
             "pkg:deb/debian/jupyterhub": 1

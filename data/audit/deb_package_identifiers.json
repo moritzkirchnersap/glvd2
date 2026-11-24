@@ -2147,6 +2147,7 @@
             "\"siemens\":\"dataxess configurator\"",
             "\"siemens\":\"edge opc ua server configurator\"",
             "\"siemens\":\"flow creator configurator\"",
+            "\"siemens\":\"gdap (gproms digital application platform)\"",
             "\"siemens\":\"gridscale x dsa\"",
             "\"siemens\":\"gridscale x pss®e\"",
             "\"siemens\":\"heliox dual port 60kw\"",
@@ -2155,6 +2156,7 @@
             "\"siemens\":\"innexis architecture native acceleration 2026\"",
             "\"siemens\":\"insights hub\"",
             "\"siemens\":\"integrated pa suite tester\"",
+            "\"siemens\":\"intralog wms kronos\"",
             "\"siemens\":\"opcenter connect electronics\"",
             "\"siemens\":\"opcenter connect mom\"",
             "\"siemens\":\"opcenter execution core\"",
@@ -2179,6 +2181,7 @@
             "\"siemens\":\"sifinity setup\"",
             "\"siemens\":\"simcenter executable digital twin\"",
             "\"siemens\":\"simcenter studio\"",
+            "\"siemens\":\"sitop manager\"",
             "\"siemens\":\"versicharge ac series\"",
             "\"siemens\":\"versicloud\"",
             "\"siemens\":\"xpedition designer\"",
@@ -4834,6 +4837,7 @@
             "\"siemens\":\"dataxess configurator\"",
             "\"siemens\":\"edge opc ua server configurator\"",
             "\"siemens\":\"flow creator configurator\"",
+            "\"siemens\":\"gdap (gproms digital application platform)\"",
             "\"siemens\":\"gridscale x dsa\"",
             "\"siemens\":\"gridscale x pss®e\"",
             "\"siemens\":\"heliox dual port 60kw\"",
@@ -4842,6 +4846,7 @@
             "\"siemens\":\"innexis architecture native acceleration 2026\"",
             "\"siemens\":\"insights hub\"",
             "\"siemens\":\"integrated pa suite tester\"",
+            "\"siemens\":\"intralog wms kronos\"",
             "\"siemens\":\"opcenter connect electronics\"",
             "\"siemens\":\"opcenter connect mom\"",
             "\"siemens\":\"opcenter execution core\"",
@@ -4866,6 +4871,7 @@
             "\"siemens\":\"sifinity setup\"",
             "\"siemens\":\"simcenter executable digital twin\"",
             "\"siemens\":\"simcenter studio\"",
+            "\"siemens\":\"sitop manager\"",
             "\"siemens\":\"versicharge ac series\"",
             "\"siemens\":\"versicloud\"",
             "\"siemens\":\"xpedition designer\"",
@@ -6702,8 +6708,6 @@
             "cpe:2.3:a:redhat:cost_management_on_premise:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": [
-            "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-14-gdb\"",
-            "\"https://access.redhat.com/downloads/content/package-browser/\":\"gcc-toolset-15-gdb\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"gdb\"",
             "\"https://catalog.redhat.com/software/containers/\":\"gdb-main\""
         ],
@@ -10314,13 +10318,17 @@
     "pkg:deb/debian/gunicorn": {
         "VendorProductIDs": [
             "\"benoitc\":\"benoitc/gunicorn\"",
-            "\"benoitc\":\"gunicorn\""
+            "\"benoitc\":\"gunicorn\"",
+            "\"gunicorn\":\"gunicorn\""
         ],
         "CPEs": [
-            "cpe:2.3:a:benoitc:gunicorn:*:*:*:*:*:*:*:*"
+            "cpe:2.3:a:benoitc:gunicorn:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:gunicorn:gunicorn:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:pypi/gunicorn"
+        ]
     },
     "pkg:deb/debian/guzzle": {
         "VendorProductIDs": [
@@ -12853,7 +12861,9 @@
             "cpe:2.3:a:kovidgoyal:kitty:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/kovidgoyal/kitty"
+        ]
     },
     "pkg:deb/debian/kleopatra": {
         "VendorProductIDs": [
@@ -17865,7 +17875,9 @@
         "PackageIDs": [
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.solr:solr-core\""
         ],
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:maven/org.apache.solr/solr-core"
+        ]
     },
     "pkg:deb/debian/luksmeta": {
         "VendorProductIDs": [
@@ -22115,6 +22127,7 @@
             "\"siemens\":\"dataxess configurator\"",
             "\"siemens\":\"edge opc ua server configurator\"",
             "\"siemens\":\"flow creator configurator\"",
+            "\"siemens\":\"gdap (gproms digital application platform)\"",
             "\"siemens\":\"gridscale x dsa\"",
             "\"siemens\":\"gridscale x pss®e\"",
             "\"siemens\":\"heliox dual port 60kw\"",
@@ -22123,6 +22136,7 @@
             "\"siemens\":\"innexis architecture native acceleration 2026\"",
             "\"siemens\":\"insights hub\"",
             "\"siemens\":\"integrated pa suite tester\"",
+            "\"siemens\":\"intralog wms kronos\"",
             "\"siemens\":\"opcenter connect electronics\"",
             "\"siemens\":\"opcenter connect mom\"",
             "\"siemens\":\"opcenter execution core\"",
@@ -22147,6 +22161,7 @@
             "\"siemens\":\"sifinity setup\"",
             "\"siemens\":\"simcenter executable digital twin\"",
             "\"siemens\":\"simcenter studio\"",
+            "\"siemens\":\"sitop manager\"",
             "\"siemens\":\"versicharge ac series\"",
             "\"siemens\":\"versicloud\"",
             "\"siemens\":\"xpedition designer\"",
@@ -25635,6 +25650,7 @@
             "\"siemens\":\"connect x200\"",
             "\"siemens\":\"connect x300\"",
             "\"siemens\":\"connect x500\"",
+            "\"siemens\":\"cp61850 (6dd7050-0aa80)\"",
             "\"siemens\":\"crsp\"",
             "\"siemens\":\"depotfinity\"",
             "\"siemens\":\"designcenter x essentials\"",
@@ -25860,6 +25876,7 @@
             "\"siemens\":\"connect x200\"",
             "\"siemens\":\"connect x300\"",
             "\"siemens\":\"connect x500\"",
+            "\"siemens\":\"cp61850 (6dd7050-0aa80)\"",
             "\"siemens\":\"crsp\"",
             "\"siemens\":\"depotfinity\"",
             "\"siemens\":\"designcenter x essentials\"",
@@ -27595,6 +27612,7 @@
             "\"siemens\":\"dataxess configurator\"",
             "\"siemens\":\"edge opc ua server configurator\"",
             "\"siemens\":\"flow creator configurator\"",
+            "\"siemens\":\"gdap (gproms digital application platform)\"",
             "\"siemens\":\"gridscale x dsa\"",
             "\"siemens\":\"gridscale x pss®e\"",
             "\"siemens\":\"heliox dual port 60kw\"",
@@ -27603,6 +27621,7 @@
             "\"siemens\":\"innexis architecture native acceleration 2026\"",
             "\"siemens\":\"insights hub\"",
             "\"siemens\":\"integrated pa suite tester\"",
+            "\"siemens\":\"intralog wms kronos\"",
             "\"siemens\":\"opcenter connect electronics\"",
             "\"siemens\":\"opcenter connect mom\"",
             "\"siemens\":\"opcenter execution core\"",
@@ -27627,6 +27646,7 @@
             "\"siemens\":\"sifinity setup\"",
             "\"siemens\":\"simcenter executable digital twin\"",
             "\"siemens\":\"simcenter studio\"",
+            "\"siemens\":\"sitop manager\"",
             "\"siemens\":\"versicharge ac series\"",
             "\"siemens\":\"versicloud\"",
             "\"siemens\":\"xpedition designer\"",
