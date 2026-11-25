@@ -612,6 +612,14 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/amqtt": {
+        "VendorProductIDs": [
+            "\"yakifo\":\"amqtt\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
     "pkg:deb/debian/angular.js": {
         "VendorProductIDs": [
             "\"@angular\":\"common\"",
@@ -848,8 +856,12 @@
             "cpe:2.3:a:apache:jena:*:*:*:*:*:*:*:*",
             "cpe:2.3:a:apache:jena_sdb:*:*:*:*:*:*:*:*"
         ],
-        "PackageIDs": null,
-        "PackageURLs": null
+        "PackageIDs": [
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.jena:jena-arq\""
+        ],
+        "PackageURLs": [
+            "pkg:maven/org.apache.jena/jena-arq"
+        ]
     },
     "pkg:deb/debian/apache-karaf": {
         "VendorProductIDs": [
@@ -865,9 +877,14 @@
         ],
         "PackageIDs": [
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.karaf.decanter.collector:org.apache.karaf.decanter.collector.log.socket\"",
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.karaf.shell:org.apache.karaf.shell.ssh\"",
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.karaf:apache-karaf\"",
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.karaf:cave\""
         ],
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:maven/org.apache.karaf.shell/org.apache.karaf.shell.ssh",
+            "pkg:maven/org.apache.karaf/apache-karaf"
+        ]
     },
     "pkg:deb/debian/apache-log4j1.2": {
         "VendorProductIDs": [
@@ -953,12 +970,14 @@
         "PackageIDs": [
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.opennlp:opennlp-core\"",
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.opennlp:opennlp-ml-libsvm\"",
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.opennlp:opennlp-runtime\"",
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.opennlp:opennlp-symspell\"",
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.opennlp:opennlp-tools\"",
             "\"https://repo.maven.apache.org/maven2/\":\"org.apache.opennlp:opennlp-tools\""
         ],
         "PackageURLs": [
             "pkg:maven/org.apache.opennlp/opennlp-core",
+            "pkg:maven/org.apache.opennlp/opennlp-runtime",
             "pkg:maven/org.apache.opennlp/opennlp-symspell",
             "pkg:maven/org.apache.opennlp/opennlp-tools"
         ]
@@ -2870,7 +2889,9 @@
             "cpe:2.3:a:civetweb_project:civetweb:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/civetweb/civetweb"
+        ]
     },
     "pkg:deb/debian/civicrm": {
         "VendorProductIDs": [
@@ -4197,7 +4218,8 @@
         "VendorProductIDs": null,
         "CPEs": null,
         "PackageIDs": [
-            "\"https://access.redhat.com/downloads/content/package-browser/\":\"dnf5\""
+            "\"https://access.redhat.com/downloads/content/package-browser/\":\"dnf5\"",
+            "\"https://catalog.redhat.com/software/containers/\":\"dnf5-main\""
         ],
         "PackageURLs": null
     },
@@ -5162,6 +5184,7 @@
             "pkg:otp/ssl?repository_url=https:%2F%2Fgithub.com%2Ferlang%2Fotp\u0026vcs_url=git%2Bhttps:%2F%2Fgithub.com%2Ferlang%2Fotp.git",
             "pkg:otp/stdlib?repository_url=https:%2F%2Fgithub.com%2Ferlang%2Fotp\u0026vcs_url=git%2Bhttps:%2F%2Fgithub.com%2Ferlang%2Fotp.git",
             "pkg:otp/tftp?repository_url=https:%2F%2Fgithub.com%2Ferlang%2Fotp\u0026vcs_url=git%2Bhttps:%2F%2Fgithub.com%2Ferlang%2Fotp.git",
+            "pkg:otp/xmerl?repository_url=https:%2F%2Fgithub.com%2Ferlang%2Fotp\u0026vcs_url=git%2Bhttps:%2F%2Fgithub.com%2Ferlang%2Fotp.git",
             "pkg:software-id/erlang.org/otp"
         ]
     },
@@ -6038,7 +6061,9 @@
             "cpe:2.3:a:fontforge:fontforge:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/fontforge/fontforge"
+        ]
     },
     "pkg:deb/debian/fonttools": {
         "VendorProductIDs": [
@@ -9935,9 +9960,13 @@
         "VendorProductIDs": [
             "\"graphql-python\":\"graphql-core\""
         ],
-        "CPEs": null,
+        "CPEs": [
+            "cpe:2.3:a:graphql:graphql:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:pypi/graphql-core"
+        ]
     },
     "pkg:deb/debian/graylog2": {
         "VendorProductIDs": [
@@ -11903,6 +11932,7 @@
         ],
         "CPEs": null,
         "PackageIDs": [
+            "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"jboss-eap-parent\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"org.jboss.eap-jboss-eap-parent\""
         ],
         "PackageURLs": null
@@ -13278,6 +13308,14 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/libaacs": {
+        "VendorProductIDs": [
+            "\"videolan\":\"libaacs\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
     "pkg:deb/debian/libaec": {
         "VendorProductIDs": [
             "\"deutsches klimarechenzentrum\":\"libaec\""
@@ -13396,6 +13434,18 @@
             "\"https://packages.fedoraproject.org/\":\"mod_fcgid\""
         ],
         "PackageURLs": null
+    },
+    "pkg:deb/debian/libapache2-mod-perl2": {
+        "VendorProductIDs": [
+            "\"apache software foundation\":\"apache perl\""
+        ],
+        "CPEs": null,
+        "PackageIDs": [
+            "\"https://cpan.org/modules\":\"mod_perl\""
+        ],
+        "PackageURLs": [
+            "pkg:cpan/mod_perl"
+        ]
     },
     "pkg:deb/debian/libapache2-mod-ruid2": {
         "VendorProductIDs": [
@@ -14102,7 +14152,8 @@
         ],
         "CPEs": null,
         "PackageIDs": [
-            "\"https://cpan.org/modules\":\"DBI\""
+            "\"https://cpan.org/modules\":\"DBI\"",
+            "\"https://github.com/perl5-dbi/DBI\":\"DBI\""
         ],
         "PackageURLs": [
             "pkg:cpan/DBI"
@@ -15193,9 +15244,11 @@
     },
     "pkg:deb/debian/libmodplug": {
         "VendorProductIDs": [
-            "\"konstanty bialkowski\":\"libmodplug\""
+            "\"konstanty bialkowski\":\"libmodplug\"",
+            "\"konstanty\":\"libmodplug\""
         ],
         "CPEs": [
+            "cpe:2.3:a:konstanty:libmodplug:*:*:*:*:*:*:*:*",
             "cpe:2.3:a:konstanty_bialkowski:libmodplug:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
@@ -18472,8 +18525,18 @@
             "\"wikimedia foundation\":\"discussiontools\"",
             "\"wikimedia foundation\":\"echo\"",
             "\"wikimedia foundation\":\"luasandbox\"",
+            "\"wikimedia foundation\":\"mediawiki - abusefilter extension\"",
             "\"wikimedia foundation\":\"mediawiki - centralauth extension\"",
+            "\"wikimedia foundation\":\"mediawiki - checkuser extension\"",
+            "\"wikimedia foundation\":\"mediawiki - echo extension\"",
+            "\"wikimedia foundation\":\"mediawiki - minervaneue skin\"",
+            "\"wikimedia foundation\":\"mediawiki - mobilefrontend extension\"",
+            "\"wikimedia foundation\":\"mediawiki - oathauth extension\"",
+            "\"wikimedia foundation\":\"mediawiki - translate extension\"",
+            "\"wikimedia foundation\":\"mediawiki - visualeditor extension\"",
+            "\"wikimedia foundation\":\"mediawiki - wikimediamessages extension\"",
             "\"wikimedia foundation\":\"mediawiki\"",
+            "\"wikimedia foundation\":\"mediawiki/services/parsoid\"",
             "\"wikimedia foundation\":\"multimediaviewer\"",
             "\"wikimedia foundation\":\"oathauth\"",
             "\"wikimedia foundation\":\"parsoid\"",
@@ -21452,6 +21515,17 @@
         "CPEs": null,
         "PackageIDs": null,
         "PackageURLs": null
+    },
+    "pkg:deb/debian/node-parse5": {
+        "VendorProductIDs": [
+            "\"inikulin\":\"parse5\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": [
+            "pkg:npm/parse5",
+            "pkg:npm/parse5-html-rewriting-stream"
+        ]
     },
     "pkg:deb/debian/node-path-to-regexp": {
         "VendorProductIDs": [
@@ -25521,15 +25595,35 @@
             "\"symfony\":\"twig\"",
             "\"twig\":\"cssinliner-extra\"",
             "\"twig\":\"markdown-extra\"",
+            "\"twig\":\"twig/html-extra\"",
+            "\"twig\":\"twig/markdown-extra\"",
+            "\"twig\":\"twig/twig\"",
             "\"twigphp\":\"twig\""
         ],
         "CPEs": [
             "cpe:2.3:a:symfony:twig:*:*:*:*:*:*:*:*"
         ],
-        "PackageIDs": null,
+        "PackageIDs": [
+            "\"https://packagist.org\":\"twig/html-extra\"",
+            "\"https://packagist.org\":\"twig/markdown-extra\"",
+            "\"https://packagist.org\":\"twig/twig\""
+        ],
         "PackageURLs": [
             "pkg:composer/twig/twig"
         ]
+    },
+    "pkg:deb/debian/php-web-token-jwt-framework": {
+        "VendorProductIDs": [
+            "\"web-token\":\"jwt-encryption-algorithm-ecdh-es\"",
+            "\"web-token\":\"jwt-experimental\"",
+            "\"web-token\":\"jwt-framework\"",
+            "\"web-token\":\"jwt-library\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:nats:jwt_library:*:*:*:*:*:*:*:*"
+        ],
+        "PackageIDs": null,
+        "PackageURLs": null
     },
     "pkg:deb/debian/php-zend-db": {
         "VendorProductIDs": [
@@ -26545,6 +26639,7 @@
         ],
         "CPEs": null,
         "PackageIDs": [
+            "\"https://github.com/polkit-org/polkit\":\"polkit\"",
             "\"https://www.freedesktop.org/software/polkit/releases/\":\"polkit\""
         ],
         "PackageURLs": null
@@ -28492,6 +28587,14 @@
         ],
         "PackageURLs": null
     },
+    "pkg:deb/debian/python-svglib": {
+        "VendorProductIDs": [
+            "\"deeplook\":\"svglib\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
     "pkg:deb/debian/python-tablib": {
         "VendorProductIDs": [
             "\"jazzband\":\"tablib\"",
@@ -28579,6 +28682,14 @@
         "CPEs": [
             "cpe:2.3:a:virtualenv:virtualenv:*:*:*:*:*:*:*:*"
         ],
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/python-wcmatch": {
+        "VendorProductIDs": [
+            "\"facelessuser\":\"wcmatch\""
+        ],
+        "CPEs": null,
         "PackageIDs": null,
         "PackageURLs": null
     },
@@ -30099,6 +30210,15 @@
         "VendorProductIDs": [
             "\"open source robotics foundation\":\"robot operating system (ros)\"",
             "\"openrobotics\":\"ros_comm ros communications packages\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/ros-rviz": {
+        "VendorProductIDs": [
+            "\"open robotics\":\"ros 2\"",
+            "\"open robotics\":\"rviz\""
         ],
         "CPEs": null,
         "PackageIDs": null,
@@ -32006,7 +32126,8 @@
         "CPEs": null,
         "PackageIDs": [
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"rust-rpm-sequoia\"",
-            "\"https://catalog.redhat.com/software/containers/\":\"rust-rpm-sequoia-main\""
+            "\"https://catalog.redhat.com/software/containers/\":\"rust-rpm-sequoia-main\"",
+            "\"https://github.com/rpm-software-management/rpm-sequoia\":\"rpm-sequoia\""
         ],
         "PackageURLs": null
     },
@@ -32728,9 +32849,12 @@
     },
     "pkg:deb/debian/shapelib": {
         "VendorProductIDs": [
-            "\"n/a\":\"shapelib\""
+            "\"n/a\":\"shapelib\"",
+            "\"osgeo\":\"shapelib\""
         ],
-        "CPEs": null,
+        "CPEs": [
+            "cpe:2.3:a:osgeo:shapelib:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": null,
         "PackageURLs": null
     },
@@ -33463,6 +33587,14 @@
         "CPEs": [
             "cpe:2.3:a:sqlitedict:sqlitedict:*:*:*:*:*:*:*:*"
         ],
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/sqlmap": {
+        "VendorProductIDs": [
+            "\"sqlmapproject\":\"sqlmap\""
+        ],
+        "CPEs": null,
         "PackageIDs": null,
         "PackageURLs": null
     },
@@ -35253,6 +35385,7 @@
             "\"twogood\":\"unshield\""
         ],
         "CPEs": [
+            "cpe:2.3:a:twogood:unshield:*:*:*:*:*:*:*:*",
             "cpe:2.3:a:unshield_project:unshield:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
