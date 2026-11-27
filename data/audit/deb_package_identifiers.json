@@ -311,6 +311,7 @@
     "pkg:deb/debian/airflow": {
         "VendorProductIDs": [
             "\"apache software foundation\":\"apache airflow cncf kubernetes provider\"",
+            "\"apache software foundation\":\"apache airflow docker provider\"",
             "\"apache software foundation\":\"apache airflow mysql provider\"",
             "\"apache software foundation\":\"apache airflow providers fab\"",
             "\"apache software foundation\":\"apache airflow providers smtp\"",
@@ -629,7 +630,6 @@
             "\"@angular\":\"router\"",
             "\"@angular/\":\"platform-server\"",
             "\"angular\":\"angular\"",
-            "\"angular\":\"devtools\"",
             "\"angularjs\":\"angular.js\"",
             "\"google\":\"angularjs\"",
             "\"n/a\":\"angular\"",
@@ -2191,6 +2191,7 @@
             "\"siemens\":\"pads pro essentials\"",
             "\"siemens\":\"pads pro student edition\"",
             "\"siemens\":\"pads professional\"",
+            "\"siemens\":\"palo alto networks\\u00a0pan-os\\u00a0vm-series\"",
             "\"siemens\":\"pave360 automotive 2026\"",
             "\"siemens\":\"process preparation x\"",
             "\"siemens\":\"project server web administration tool\"",
@@ -2392,6 +2393,18 @@
         "PackageIDs": null,
         "PackageURLs": [
             "pkg:github/Blosc/c-blosc2"
+        ]
+    },
+    "pkg:deb/debian/c-icap": {
+        "VendorProductIDs": [
+            "\"c-icap\":\"c-icap-server\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:c-icap_project:c-icap:*:*:*:*:*:*:*:*"
+        ],
+        "PackageIDs": null,
+        "PackageURLs": [
+            "pkg:github/c-icap/c-icap-server"
         ]
     },
     "pkg:deb/debian/c3p0": {
@@ -3517,7 +3530,8 @@
             "cpe:2.3:a:gnu:cpio:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": [
-            "\"https://access.redhat.com/downloads/content/package-browser/\":\"cpio\""
+            "\"https://access.redhat.com/downloads/content/package-browser/\":\"cpio\"",
+            "\"https://catalog.redhat.com/software/containers/\":\"cpio-main\""
         ],
         "PackageURLs": null
     },
@@ -4884,6 +4898,7 @@
             "\"siemens\":\"pads pro essentials\"",
             "\"siemens\":\"pads pro student edition\"",
             "\"siemens\":\"pads professional\"",
+            "\"siemens\":\"palo alto networks\\u00a0pan-os\\u00a0vm-series\"",
             "\"siemens\":\"pave360 automotive 2026\"",
             "\"siemens\":\"process preparation x\"",
             "\"siemens\":\"project server web administration tool\"",
@@ -5016,6 +5031,52 @@
         "CPEs": null,
         "PackageIDs": null,
         "PackageURLs": null
+    },
+    "pkg:deb/debian/elixir-ex-aws": {
+        "VendorProductIDs": [
+            "\"ex-aws\":\"ex_aws\"",
+            "\"ex-aws\":\"ex_aws_dynamo\"",
+            "\"ex-aws\":\"ex_aws_kms\"",
+            "\"ex-aws\":\"ex_aws_lambda\"",
+            "\"ex-aws\":\"ex_aws_s3\"",
+            "\"ex-aws\":\"ex_aws_ses\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:ex-aws:ex_aws:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:ex-aws:ex_aws_dynamo:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:ex-aws:ex_aws_kms:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:ex-aws:ex_aws_lambda:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:ex-aws:ex_aws_s3:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:ex-aws:ex_aws_ses:*:*:*:*:*:*:*:*"
+        ],
+        "PackageIDs": [
+            "\"https://github.com\":\"ex-aws/ex_aws\"",
+            "\"https://github.com\":\"ex-aws/ex_aws_dynamo\"",
+            "\"https://github.com\":\"ex-aws/ex_aws_kms\"",
+            "\"https://github.com\":\"ex-aws/ex_aws_lambda\"",
+            "\"https://github.com\":\"ex-aws/ex_aws_s3\"",
+            "\"https://github.com\":\"ex-aws/ex_aws_ses\"",
+            "\"https://repo.hex.pm\":\"ex_aws\"",
+            "\"https://repo.hex.pm\":\"ex_aws_dynamo\"",
+            "\"https://repo.hex.pm\":\"ex_aws_kms\"",
+            "\"https://repo.hex.pm\":\"ex_aws_lambda\"",
+            "\"https://repo.hex.pm\":\"ex_aws_s3\"",
+            "\"https://repo.hex.pm\":\"ex_aws_ses\""
+        ],
+        "PackageURLs": [
+            "pkg:github/ex-aws/ex_aws",
+            "pkg:github/ex-aws/ex_aws_dynamo",
+            "pkg:github/ex-aws/ex_aws_kms",
+            "pkg:github/ex-aws/ex_aws_lambda",
+            "pkg:github/ex-aws/ex_aws_s3",
+            "pkg:github/ex-aws/ex_aws_ses",
+            "pkg:hex/ex_aws",
+            "pkg:hex/ex_aws_dynamo",
+            "pkg:hex/ex_aws_kms",
+            "pkg:hex/ex_aws_lambda",
+            "pkg:hex/ex_aws_s3",
+            "pkg:hex/ex_aws_ses"
+        ]
     },
     "pkg:deb/debian/elixir-lang": {
         "VendorProductIDs": [
@@ -8673,8 +8734,14 @@
         "PackageURLs": null
     },
     "pkg:deb/debian/golang-github-containers-gvisor-tap-vsocks": {
-        "VendorProductIDs": null,
-        "CPEs": null,
+        "VendorProductIDs": [
+            "\"red hat\":\"dpu kit for nvidia\"",
+            "\"red hat\":\"nvidia jetpack 7 for rhel\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:redhat:dpu_kit:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:redhat:jetpack:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": [
             "\"https://github.com/containers/gvisor-tap-vsock\":\"gvisor-tap-vsock\""
         ],
@@ -12348,9 +12415,13 @@
         ],
         "CPEs": null,
         "PackageIDs": [
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.jspwiki:jspwiki-main\"",
+            "\"https://repo.maven.apache.org/maven2\":\"org.apache.jspwiki:jspwiki-tika-searchprovider\"",
             "\"https://repo.maven.apache.org/maven2\":\"org.apache.jspwiki:jspwiki-war\""
         ],
         "PackageURLs": [
+            "pkg:maven/org.apache.jspwiki/jspwiki-main",
+            "pkg:maven/org.apache.jspwiki/jspwiki-tika-searchprovider",
             "pkg:maven/org.apache.jspwiki/jspwiki-war"
         ]
     },
@@ -12750,12 +12821,12 @@
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-ldap-federation\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-model-jpa\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-oauth\"",
+            "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-parent\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-policy-enforcer\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-quarkus-server\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-quarkus-server-app\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-quarkus-server-deployment\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-rest-admin-ui-ext\"",
-            "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-rhel9-operator-bundle-container\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-saml-core\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-saml-core-public\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"keycloak-server\"",
@@ -12775,6 +12846,7 @@
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-adapter-sso7_5-eap6\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-admin-ui\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-core\"",
+            "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-parent\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-policy-enforcer\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-quarkus-server\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"keycloak-quarkus-server-app\"",
@@ -15319,6 +15391,7 @@
     },
     "pkg:deb/debian/libmongocrypt": {
         "VendorProductIDs": [
+            "\"mongodb\":\"libmongocrypt driver\"",
             "\"mongodb\":\"libmongocrypt\""
         ],
         "CPEs": null,
@@ -15917,7 +15990,9 @@
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"LibRaw\"",
             "\"https://access.redhat.com/downloads/content/package-browser/\":\"libraw1394\""
         ],
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/LibRaw/LibRaw"
+        ]
     },
     "pkg:deb/debian/libre": {
         "VendorProductIDs": [
@@ -15964,6 +16039,14 @@
         ],
         "CPEs": null,
         "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/librelp": {
+        "VendorProductIDs": null,
+        "CPEs": null,
+        "PackageIDs": [
+            "\"https://access.redhat.com/downloads/content/package-browser/\":\"librelp\""
+        ],
         "PackageURLs": null
     },
     "pkg:deb/debian/libreoffice": {
@@ -18364,10 +18447,13 @@
             "\"mastodon\":\"mastodon/mastodon\""
         ],
         "CPEs": [
-            "cpe:2.3:a:joinmastodon:mastodon:*:*:*:*:*:*:*:*"
+            "cpe:2.3:a:joinmastodon:mastodon:*:*:*:*:*:*:*:*",
+            "cpe:2.3:a:mastodon-tootdon:tootdon_for_mastodon:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": null,
-        "PackageURLs": null
+        "PackageURLs": [
+            "pkg:github/mastodon/mastodon"
+        ]
     },
     "pkg:deb/debian/materialize": {
         "VendorProductIDs": [
@@ -18921,6 +19007,16 @@
         ],
         "CPEs": null,
         "PackageIDs": null,
+        "PackageURLs": null
+    },
+    "pkg:deb/debian/modemmanager": {
+        "VendorProductIDs": [
+            "\"freedesktop.org\":\"modemmanager\""
+        ],
+        "CPEs": null,
+        "PackageIDs": [
+            "\"https://gitlab.freedesktop.org/mobile-broadband/ModemManager\":\"ModemManager\""
+        ],
         "PackageURLs": null
     },
     "pkg:deb/debian/modsecurity": {
@@ -22259,6 +22355,7 @@
             "\"siemens\":\"pads pro essentials\"",
             "\"siemens\":\"pads pro student edition\"",
             "\"siemens\":\"pads professional\"",
+            "\"siemens\":\"palo alto networks\\u00a0pan-os\\u00a0vm-series\"",
             "\"siemens\":\"pave360 automotive 2026\"",
             "\"siemens\":\"process preparation x\"",
             "\"siemens\":\"project server web administration tool\"",
@@ -26291,6 +26388,16 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/phpmyadmin-shapefile": {
+        "VendorProductIDs": [
+            "\"phpmyadmin\":\"shapefile\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:phpmyadmin:shapefile:*:*:*:*:*:*:*:*"
+        ],
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
     "pkg:deb/debian/phpmyadmin-sql-parser": {
         "VendorProductIDs": [
             "\"phpmyadmin\":\"sql-parser\""
@@ -27577,6 +27684,14 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/pytables": {
+        "VendorProductIDs": [
+            "\"pytables\":\"pytables\""
+        ],
+        "CPEs": null,
+        "PackageIDs": null,
+        "PackageURLs": null
+    },
     "pkg:deb/debian/pytest": {
         "VendorProductIDs": [
             "\"pytest\":\"pytest\""
@@ -27765,6 +27880,7 @@
             "\"siemens\":\"pads pro essentials\"",
             "\"siemens\":\"pads pro student edition\"",
             "\"siemens\":\"pads professional\"",
+            "\"siemens\":\"palo alto networks\\u00a0pan-os\\u00a0vm-series\"",
             "\"siemens\":\"pave360 automotive 2026\"",
             "\"siemens\":\"process preparation x\"",
             "\"siemens\":\"project server web administration tool\"",
@@ -28456,6 +28572,16 @@
         "PackageIDs": null,
         "PackageURLs": null
     },
+    "pkg:deb/debian/python-pulp": {
+        "VendorProductIDs": [
+            "\"pulp\":\"pulp_python\""
+        ],
+        "CPEs": null,
+        "PackageIDs": [
+            "\"https://github.com/pulp/pulp_python\":\"pulp_python\""
+        ],
+        "PackageURLs": null
+    },
     "pkg:deb/debian/python-pyramid": {
         "VendorProductIDs": [
             "\"pylons\":\"pyramid\""
@@ -28998,6 +29124,7 @@
     "pkg:deb/debian/pytorch": {
         "VendorProductIDs": [
             "\"n/a\":\"pytorch\"",
+            "\"pytorch foundation\":\"pytorch\"",
             "\"pytorch\":\"pytorch\"",
             "\"pytorch\":\"torchserve\"",
             "\"pytorchlightning\":\"pytorch_lightning\""
@@ -32681,8 +32808,12 @@
         ]
     },
     "pkg:deb/debian/screen": {
-        "VendorProductIDs": null,
-        "CPEs": null,
+        "VendorProductIDs": [
+            "\"gnu\":\"screen\""
+        ],
+        "CPEs": [
+            "cpe:2.3:a:gnu:screen:*:*:*:*:*:*:*:*"
+        ],
         "PackageIDs": [
             "\"https://git.savannah.gnu.org/cgit/screen.git\":\"screen\""
         ],
@@ -34040,6 +34171,22 @@
             "\"symfony\":\"runtime\"",
             "\"symfony\":\"security-http\"",
             "\"symfony\":\"symfony\"",
+            "\"symfony\":\"symfony/doctrine-bridge\"",
+            "\"symfony\":\"symfony/expression-language\"",
+            "\"symfony\":\"symfony/framework-bundle\"",
+            "\"symfony\":\"symfony/html-sanitizer\"",
+            "\"symfony\":\"symfony/http-client\"",
+            "\"symfony\":\"symfony/http-foundation\"",
+            "\"symfony\":\"symfony/http-kernel\"",
+            "\"symfony\":\"symfony/json-path\"",
+            "\"symfony\":\"symfony/mailer\"",
+            "\"symfony\":\"symfony/routing\"",
+            "\"symfony\":\"symfony/security-bundle\"",
+            "\"symfony\":\"symfony/security-core\"",
+            "\"symfony\":\"symfony/security-guard\"",
+            "\"symfony\":\"symfony/security-http\"",
+            "\"symfony\":\"symfony/serializer\"",
+            "\"symfony\":\"symfony/symfony\"",
             "\"symfony\":\"twig-bridge\"",
             "\"symfony\":\"twilio-notifier\"",
             "\"symfony\":\"web-profiler-bundle\"",
@@ -34052,6 +34199,22 @@
             "cpe:2.3:a:symphony_php_framework:symphony_process:*:*:*:*:*:*:*:*"
         ],
         "PackageIDs": [
+            "\"https://packagist.org\":\"symfony/doctrine-bridge\"",
+            "\"https://packagist.org\":\"symfony/expression-language\"",
+            "\"https://packagist.org\":\"symfony/framework-bundle\"",
+            "\"https://packagist.org\":\"symfony/html-sanitizer\"",
+            "\"https://packagist.org\":\"symfony/http-client\"",
+            "\"https://packagist.org\":\"symfony/http-foundation\"",
+            "\"https://packagist.org\":\"symfony/http-kernel\"",
+            "\"https://packagist.org\":\"symfony/json-path\"",
+            "\"https://packagist.org\":\"symfony/mailer\"",
+            "\"https://packagist.org\":\"symfony/routing\"",
+            "\"https://packagist.org\":\"symfony/security-bundle\"",
+            "\"https://packagist.org\":\"symfony/security-core\"",
+            "\"https://packagist.org\":\"symfony/security-guard\"",
+            "\"https://packagist.org\":\"symfony/security-http\"",
+            "\"https://packagist.org\":\"symfony/serializer\"",
+            "\"https://packagist.org\":\"symfony/symfony\"",
             "\"https://packagist.org/packages/symfony/config\":\"symfony/config\"",
             "\"https://packagist.org/packages/symfony/expression-language\":\"symfony/expression-language\"",
             "\"https://packagist.org/packages/symfony/html-sanitizer\":\"symfony/html-sanitizer\"",
@@ -36393,7 +36556,6 @@
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"jboss-eap-7/eap74-els-openjdk11-openshift-rhel8\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"jboss-eap-7/eap74-els-openjdk17-openshift-rhel8\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"jboss-eap-7/eap74-els-openjdk8-openshift-rhel8\"",
-            "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"org.jboss.hal/hal-console\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"wildfly-cli\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"wildfly-controller\"",
             "\"https://access.redhat.com/jbossnetwork/restricted/listSoftware.html\":\"wildfly-controller-client\"",
@@ -37651,6 +37813,7 @@
             "\"otrs ag\":\"otrs\"",
             "\"otrs ag\":\"otrsstorm\"",
             "\"otrs ag\":\"systemmonitoring\"",
+            "\"otrs gmbh (former otrs ag)\":\"otrs\"",
             "\"znuny\":\"lts\"",
             "\"znuny\":\"znuny\""
         ],
